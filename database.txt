@@ -1,0 +1,229 @@
+1,Jackets,Etcetera Red Label Spring 2016,205500,VELOCITY,Lightweight water-resistant ripstop nylon anorak with convertible collar,325.00,White,/Images/Jackets/etcetera_spring2016_205500_a.png
+2,Jackets,Etcetera Spring 2016,205547,GLOBAL,Dot-jacquard tweed cutaway hem topper with back belt 2-button detail,395.00,Khaki - Ivory and Black,/Images/Jackets/etcetera_spring2016_205547_a.png
+3,Jackets,Etcetera Spring 2016,205557,COAST,Cropped one-button jacket in piquÈ-textured striped knit jacquard with bias cut self piping detail at front edges and front shape seams,325.00,Ivory and Navy,/Images/Jackets/etcetera_spring2016_205557_a.png
+4,Jackets,Etcetera Spring 2016,205566,ATMOSPHERE,Mandarin-collar cropped jacket in linen-blend chambray with a shimmering silver-foil metallic finish,295.00,Silver and Chambray,/Images/Jackets/etcetera_spring2016_205566_a.png
+5,Jackets,Etcetera Spring 2016,205575,IMAGE,Cropped moto jacket updated in Sand leather with brushed Light Gold hardware,595.00,Sand,/Images/Jackets/etcetera_spring2016_205575_a.png
+6,Jackets,Etcetera Red Label Spring 2016,205580,JETSET,Smooth dense compact-knit jacket with ribbed sweater-knit sleeve panels.,295.00,Navy,/Images/Jackets/etcetera_spring2016_205580_a.png
+7,Jackets,Etcetera Spring 2016,205604,FLOWERPLAY,Modern single-breasted trench- in engineered floral-printed water resistant stretch-cotton canvas.,495.00,Multi-Colored,/Images/Jackets/etcetera_spring2016_205604_a.png
+8,Jackets,Etcetera Spring 2016,205605,ULTIMATE,Convertible-collar cropped jacket in cross-dyed  garment-washed stretch denim with a subtle two-tone effect.,295.00,Sunset and White,/Images/Jackets/etcetera_spring2016_205605_a.png
+9,Jackets,Etcetera Spring 2016,205785,CHAMPAGNE,Lightweight- cotton metal tech - crinkled hooded topper with subtle metallic sheen.,385.00,Champagne,/Images/Jackets/etcetera_spring2016_205785_a.png
+10,Jackets,Etcetera Spring 2016,205788,BARLEY,Double-breasted trench coat in textured stretch cotton with self fringe detailing. ,495.00,Ecru,/Images/Jackets/etcetera_spring2016_205788_a.png
+11,Jackets,Etcetera Spring 2016,405502,BIANCA,Shaped jean jacket in garment-washed- stretch-denim.,295.00,White,/Images/Jackets/etcetera_spring2016_405502_a.png
+12,Jackets,Etcetera Spring 2016,405507,AMBROSIA,Metallic-flecked tweed short jacket with moto-inspired details and fringe trim.,350.00,Pale Vermillion and Ecru,/Images/Jackets/etcetera_spring2016_405507_a.png
+13,Jackets,Etcetera Spring 2016,405523,MARVELOUS,Retro-style sculpted peplum jacket- broken pinstripe stretch suiting.,395.00,Taupe and Ivory,/Images/Jackets/etcetera_spring2016_405523_a.png
+14,Jackets,Etcetera Spring 2016,405526,DAYBREAK,Soft tweed jacket nipped at the waist with decorative gold zipper and natural bamboo pulls at front waist seams.,325.00,Daffodil and Ivory,/Images/Jackets/etcetera_spring2016_405526_a.png
+15,Jackets,Etcetera Spring 2016,405531,LACQUERED,Shapely peplum jacket in raffia-textured basketweave.,350.00,Rasberry,/Images/Jackets/etcetera_spring2016_405531_a.png
+16,Jackets,Etcetera Spring 2016,405543,SARAFINA,Soft striated tweed zip-front jacket with cutaway hem.,350.00,Mulit-Color,/Images/Jackets/etcetera_spring2016_405543_a.png
+17,Jackets,Etcetera Spring 2016,405561,TRULY,Stretch twill denim zip-front topper with detachable collar.,395.00,Dark - Indigo and Navy,/Images/Jackets/etcetera_spring2016_405561_a.png
+18,Jackets,Etcetera Spring 2016,405563,PINKLADY,Engineered python border-print stretch-cotton topper with ribbon and chain trim.,495.00,Pink Bark Taupe Clove and White,/Images/Jackets/etcetera_spring2016_405563_a.png
+19,Jackets,Etcetera Spring 2016,405585,CHARNA,Boxy double-breasted jacket in textured stretch cotton blend.,335.00,Black,/Images/Jackets/etcetera_spring2016_405585_a.png
+20,Jackets,Etcetera Spring 2016,405786,ENIGMA,Stretch cotton-blend safari jacket with faux-horn buttons.,395.00,Black,/Images/Jackets/etcetera_spring2016_405786_a.png
+21,Jackets,Etcetera Spring 2016,405789,FELLINI,Stretch cotton-blend safari jacket with faux-horn buttons.,350.00,Black,/Images/Jackets/etcetera_spring2016_405789_a.png
+22,Jackets,Etcetera Spring 2016,205885,PEKOE,Light weight cotton nylon metallic blazer and ladder-lace insets on the sleeves. ,335.00,Black,/Images/Jackets/etcetera_summer2016_205885_a.png
+23,Jackets,Etcetera Spring 2016,205891,NUTSHELL,Ultrasoft - fabric- washed linen jacket with Gold zippers and subtle peplum hem.,285.00,Natural,/Images/Jackets/etcetera_summer2016_205891_a.png
+24,Jackets,Etcetera Spring 2016,205900,JAVA,Sandwashed silk/linen jacket detailed in front with narrow sheer mesh panels and crisscross ribbon lacing that ties in a bow at hem.,350.00,Cola,/Images/Jackets/etcetera_summer2016_205900_a.png
+25,Jackets,Etcetera Spring 2016,205930,TONIC,Stretch textured cotton-blend cropped moto- inspired jacket with sheer georgette details.,325.00,Soft White,/Images/Jackets/etcetera_summer2016_205930_a.png
+26,Jackets,Etcetera Spring 2016,205951,J'ADORE,Short jewelneck jacket in basketweave- textured cotton with flanged waist seam.,295.00,Petunia,/Images/Jackets/etcetera_summer2016_205951_a.png
+27,Jackets,Etcetera Spring 2016,405892,DIVINE,Lightweight tweed-textured jacquard jacket with bell sleeves. ,350.00,Oyster Ecru and Ivory,/Images/Jackets/etcetera_summer2016_405892_a.png
+28,Jackets,Etcetera Spring 2016,405942,NAVIGATOR,Soft- garment-washed cross dyed linen jacket with indigo cotton piped reverse seaming detail.,265,Indigo,/Images/Jackets/etcetera_summer2016_405942_a.png
+29,Tops,Etcetera Spring 2016,204500,LIDO,Stretch rayon jersey- sleeveless knit top with shaped V-neckline and bust darts.,115.00,Seafoam,/Images/Tops/etcetera_spring2016_204500_a.png
+30,Tops,Etcetera Spring 2016,204505,DEBUT,Viscose-blend - stretch-jersey peplum top with shadow-stripe panels.,225.00,Ivory,/Images/Tops/etcetera_spring2016_204505_a.png
+31,Tops,Etcetera Spring 2016,204562,PARADISE,Lustrous- softly textured sleeveless top in optical pattern mesh jacquard with Navy silk-trim keyhole neckline and silvertone ornament.,225.00,Navy and Multi,/Images/Tops/etcetera_spring2016_204562_a.png
+32,Tops,Etcetera Spring 2016,204567,GYPSY,Bold floral print jersey peasant top with gracefully elasticized gathered neckline.,225.00,Multi-color,/Images/Tops/etcetera_spring2016_204567_a.png
+33,Tops,Etcetera Spring 2016,204574,ZOOM,Lightweight jersey knit top in a new lightly creped stretch knit fabric.,100.00,Black,/Images/Tops/etcetera_spring2016_204574_a.png
+34,Tops,Etcetera Spring 2016,204575,ORZO,Lightweight jersey knit top in a new- lightly creped stretch knit fabric.,100.00,White,/Images/Tops/etcetera_spring2016_204575_a.png
+35,Tops,Etcetera Spring 2016,204576,FLOURISH,Floral-and-stripe engineered-print tee in silky stretch jersey.,195.00,Black - White and Watermelon,/Images/Tops/etcetera_spring2016_204576_a.png
+36,Tops,Etcetera Spring 2016,204577,LANA,lightweight jersey knit cutaway shoulder t-shirt.,100.00,White,/Images/Tops/etcetera_spring2016_204577_a.png
+37,Tops,Etcetera Spring 2016,204588,UNCHARTED,Abstract houndstooth print- tie-neck top in silky stretch jersey.,195.00,Multi-Color,/Images/Tops/etcetera_spring2016_204588_a.png
+38,Tops,Etcetera Red Label Spring 2016,204612,CLEO,Stretch-modal jersey mixed-media knit top with crepe de Chine bottom panels that overlap at side slits.,165.00,Black,/Images/Tops/etcetera_spring2016_204612_a.png
+39,Tops,Etcetera Spring 2016,204616,HEARTBEAT,Stretch rayon jersey - sleeveless knit top with shaped V-neckline and bust darts.,115.00,Kiss,/Images/Tops/etcetera_spring2016_204616_a.png
+40,Tops,Etcetera Spring 2016,205544,ESSENCE,Tweeded tuckstitch knit jacket with fringed front edges and hem,250.00,White - Ivory and Sandstone,/Images/Tops/etcetera_spring2016_205544_a.png
+41,Tops,Etcetera Spring 2016,210501,SHARP,Super-fine viscose-cashmere blend 14-gauge jersey halter sweater with mock-neck collar.,165.00,Black,/Images/Tops/etcetera_spring2016_210501_a.png
+42,Tops,Etcetera Spring 2016,210504,MIA,Mixed-media - cotton blend - 14-gauge jersey sweater with split back detail.,225.00,Watermelon,/Images/Tops/etcetera_spring2016_210504_a.png
+43,Tops,Etcetera Spring 2016,210506,DRIFT,Cotton open-work - 3-gauge sweater with lacing detail at front neckline.,195.00,Dark Denim,/Images/Tops/etcetera_spring2016_210506_a.png
+44,Tops,Etcetera Spring 2016,210510,MILKY,Silk-blend- 12-gauge jersey convertible sweater flips from bateau neck on one side to V-neck with buttons on the other for two looks in one.,195.00,Ivory,/Images/Tops/etcetera_spring2016_210510_a.png
+45,Tops,Etcetera Spring 2016,210512,BAGUETTE,Multi-stitch- 3-gauge cotton sweater with drop-needle detailing.,250.00,Ercu,/Images/Tops/etcetera_spring2016_210512_a.png
+46,Tops,Etcetera Spring 2016,210515,KEEPSAKE,Hand-crocheted back panel in cotton-rayon adorns this cotton 3-gauge jersey front cardigan with fringed hem.,295.00,Ivory,/Images/Tops/etcetera_spring2016_210515_a.png
+47,Tops,Etcetera Spring 2016,210518,CREAMSICLE,Silk-blend - cowl-neck sleeveless 12-gauge jersey knit top with forward seaming at front.,145.00,Pale Vermillion,/Images/Tops/etcetera_spring2016_210518_a.png
+48,Tops,Etcetera Spring 2016,210519,NOUGAT,Mixed 3-gauge yarn- multi-striped sweater with side slits.,275.00,Ivory - Sandstone - Cupid Melange and Black,/Images/Tops/etcetera_spring2016_210519_a.png
+49,Tops,Etcetera Spring 2016,210522,MASCARPONE,Viscose-cashmere blend - 14-gauge pointelle-stitch- shawl collar cardigan.,225.00,Ivory,/Images/Tops/etcetera_spring2016_210522_a.png
+50,Tops,Etcetera Spring 2016,210524,MELLOW,Silk-blend- 12-gauge jersey convertible sweater flips from bateau-neck on one side to cowl neck on the other for two looks in one.,185.00,Daffodil,/Images/Tops/etcetera_spring2016_210524_a.png
+51,Tops,Etcetera Spring 2016,210529,BLAINE,Silk-blend- 12-gauge jersey-stitch sweater with pointelle-stitch detailing at neckline- raglan and side seams.,185.00,Black,/Images/Tops/etcetera_spring2016_210529_a.png
+52,Tops,Etcetera Spring 2016,210533,NEWSPRINT,Viscose-blend - 9-gauge knit shawl collar cardigan with space-dyed striping stitch detail.,250.00,Black and White,/Images/Tops/etcetera_spring2016_210533_a.png
+53,Tops,Etcetera Spring 2016,210534,NEWSPRINT,Viscose-blend- 9-gauge knit tank with space-dyed striping stitch detail.,185.00,Black and White,/Images/Tops/etcetera_spring2016_210534_a.png
+54,Tops,Etcetera Spring 2016,210543,HAZELNUT,Sheer 14-gauge rayon jersey- double-layered sweater-knit tank with layered hem detail at back.,185.00,Clove,/Images/Tops/etcetera_spring2016_210543_a.png
+55,Tops,Etcetera Spring 2016,210549,KNIGHT,Rayon-blend vintage- inspired 14-gauge jersey cardigan with ruffled-rib detailing at neckline- princess seams- and sleeve hems.,225.00,Black,/Images/Tops/etcetera_spring2016_210549_a.png
+56,Tops,Etcetera Red Label Spring 2016,210551,KNOTTED,Viscose-blend-12-gauge mesh stitch- tie-front V-neck sweater.,195.00,Black,/Images/Tops/etcetera_spring2016_210551_a.png
+57,Tops,Etcetera Spring 2016,210558,MARTINI,Cotton-blend- sleeveless 14-gauge jersey V-neck sweater with criss-crossing lace front insets & pointelle-stitch details.,175.00,Ivory,/Images/Tops/etcetera_spring2016_210558_a.png
+58,Tops,Etcetera Spring 2016,210564,FERRARI,Stretch silk-blend- 12-gauge jersey bateau-neck sweater with cut out back detailing,175.00,Kiss,/Images/Tops/etcetera_spring2016_210564_a.png
+59,Tops,Etcetera Spring 2016,210568,INTREPID,Cotton-blend- 3-gauge drop-stitch striped V-neck sweater with pointelle-stitch side detail,250.00,Dark Denim - White and Silver,/Images/Tops/etcetera_spring2016_210568_a.png
+60,Tops,Etcetera Spring 2016,210573,JEZEBEL,Super-fine viscose- cashmere blend 14-gauge jersey cardigan with ribbed back and removable knit belt,275.00,Black,/Images/Tops/etcetera_spring2016_210573_a.png
+61,Tops,Etcetera Spring 2016,210574,ZEN,Viscose-blend-12-gauge mesh stitch- tie-front V-neck sweater.,195.00,Cupid,/Images/Tops/etcetera_spring2016_210574_a.png
+62,Tops,Etcetera Red Label Spring 2016,210575,DECK,Nautical-inspired- 7-gauge jersey V-neck striped sweater with front kangaroo pocket and side slits.,195.00,White and Navy,/Images/Tops/etcetera_spring2016_210575_a.png
+63,Tops,Etcetera Spring 2016,210582,INDEPENDENCE,Silk-blend- 12-gauge jersey- cropped- bateau-neck sweater with ottoman stitching at raglan and side seams and center back.,195.00,Navy,/Images/Tops/etcetera_spring2016_210582_a.png
+64,Tops,Etcetera Red Label Spring 2016,210584,VIVA,Cotton 5-gauge Shaker-stitch halter sweater with mockneck collar.,165.00,Ivory,/Images/Tops/etcetera_spring2016_210584_a.png
+65,Tops,Etcetera Red Label Spring 2016,210588,NIRVANA,Silk-blend- 12-gauge mesh stitch sweater with back zip detail.,165.00,Bahamas Blue,/Images/Tops/etcetera_spring2016_210588_a.png
+66,Tops,Etcetera Red Label Spring 2016,210589,LEGION,Cotton-blend- 3-gauge jersey sweater with self tie lacing detail at V-neckline.,250.00,Navy,/Images/Tops/etcetera_spring2016_210589_a.png
+67,Tops,Etcetera Red Label Spring 2016,210591,WIMBLEDON,Viscose-cashmere blend-12-gauge reverse-jersey V-neck sweater with front-and-back vertical stripe pattern.,225.00,Ivory and Black,/Images/Tops/etcetera_spring2016_210591_a.png
+68,Tops,Etcetera Red Label Spring 2016,210606,TRANQUIL,Viscose-cashmere blend- 14-gauge shaker-stitch- bateau-neck sweater with curved hem.,195.00,Mint,/Images/Tops/etcetera_spring2016_210606_a.png
+69,Tops,Etcetera Red Label Spring 2016,210607,COOKIE,Rayon- blend- 14-gauge jacquard knit sleeveless rayon-blend sweater in floral ironwork pattern.,195.00,Ivory and Sandstone,/Images/Tops/etcetera_spring2016_210607_a.png
+70,Tops,Etcetera Red Label Spring 2016,210608,HAMPTONS,5-gauge reverse jersey- pure linen sweater with openwork stitch yoke detail.,195.00,White,/Images/Tops/etcetera_spring2016_210608_a.png
+71,Tops,Etcetera Spring 2016,210610,PARKER,Multi-striped rayon- 14-gauge pointelle-rib V-neck sweater.,250.00,Multi-Color,/Images/Tops/etcetera_spring2016_210610_a.png
+72,Tops,Etcetera Spring 2016,210611,COUNTRY,Viscose-cashmere blend- 14-gauge jersey sweater with opaque horizontal self stripes.,195.00,Daffodil,/Images/Tops/etcetera_spring2016_210611_a.png
+73,Tops,Etcetera Spring 2016,210793,OBLIQUE,Rayon-blend-12-gauge jersey color-blocked V-neck sweater with genuine leather panels at front sides and raglan seams.,295.00,Cupid - Ivory and Bone,/Images/Tops/etcetera_spring2016_210793_a.png
+74,Tops,Etcetera Spring 2016,210798,BROWNIE,Cotton-blend- 14-gauge jersey V-back- wedge sweater with grosgrain ribbon detail.,175.00,Bark,/Images/Tops/etcetera_spring2016_210798_a.png
+75,Tops,Etcetera Spring 2016,212508,NIGHTBIRD,Webbed lace yoke- peasant blouse in drapey stretch rayon georgette.,295.00,Black,/Images/Tops/etcetera_spring2016_212508_a.png
+76,Tops,Etcetera Spring 2016,212511,ASTER,Floral Mini Leopard-printed silk crepe de Chine sleeveless pullover.,195.00,Sunset - Amber and Ivory,/Images/Tops/etcetera_spring2016_212511_a.png
+77,Tops,Etcetera Spring 2016,212514,EMBARK,Crinkle georgette striated floral print pullover blouse with scarf tie.,275.00,Pale Vermillioni and Mulit,/Images/Tops/etcetera_spring2016_212514_a.png
+78,Tops,Etcetera Spring 2016,212522,PRESENCE,Pebbled crepe sleeveless V-neck blouse with chiffon ruffled trim.,195.00,Ivory,/Images/Tops/etcetera_spring2016_212522_a.png
+79,Tops,Etcetera Spring 2016,212535,GEORGETTE,Layered georgette A-lined tunic with cascading jabot.,195.00,Raspberry,/Images/Tops/etcetera_spring2016_212535_a.png
+80,Tops,Etcetera Spring 2016,212537,DIAMONDS,Silk double georgette blouse in a graphically engineered diamond print.,275.00,Black - White and Icy Pink,/Images/Tops/etcetera_spring2016_212537_a.png
+81,Tops,Etcetera Spring 2016,212538,VENICE,Boxy- mixed-media blouse- diamond patterened lace front jersey knit back- silk crepe de Chine and silk georgette trims.,275.00,White,/Images/Tops/etcetera_spring2016_212538_a.png
+82,Tops,Etcetera Spring 2016,212545,EXQUISTE,Peacock feather-print silk charmeuse blouse.,295.00,White - Green - Olive- Amber - Bark and Blue,/Images/Tops/etcetera_spring2016_212545_a.png
+83,Tops,Etcetera Spring 2016,212548,SEAFOAM,Supple washed silk charmeuse blouse with scarf tie.,235.00,Seafoam,/Images/Tops/etcetera_spring2016_212548_a.png
+84,Tops,Etcetera Spring 2016,212550,HOTHOUSE,Abstract floral print silk-blend voile blouse with off center tie waist.,225.00,Clay- Vermillion- Green and Multi,/Images/Tops/etcetera_spring2016_212550_a.png
+85,Tops,Etcetera Spring 2016,212554,GLITTER,Metallic foil mini square printed georgette sleeveless blouse with beaded ribbon trim.,225.00,White and Gold Foil,/Images/Tops/etcetera_spring2016_212554_a.png
+86,Tops,Etcetera Spring 2016,212559,LIMELIGHT,Matte reverse-charmeuse silk tunic with front lacing and lustrous charmeuse accents.,250.00,Cactus,/Images/Tops/etcetera_spring2016_212559_a.png
+87,Tops,Etcetera Spring 2016,212564,SEYCHELLES,Stretch rayon crepe tunic with macram√© braided fringe.,250.00,Black,/Images/Tops/etcetera_spring2016_212564_c.png
+88,Tops,Etcetera Spring 2016,212565,NOVEL,Mini Striped stretch-cotton blend shirt with lace trim.,250.00,White and Blue,/Images/Tops/etcetera_spring2016_212565_a.png
+89,Tops,Etcetera Spring 2016,212569,LUNA,Stretch-cotton double peplum shirt with stretch jersey back panel.,225.00,White,/Images/Tops/etcetera_spring2016_212569_a.png
+90,Tops,Etcetera Spring 2016,212570,SPADES,Stretch cotton-sateen shirt with side-zip shirttail hem.,195.00,Black,/Images/Tops/etcetera_spring2016_212570_a.png
+91,Tops,Etcetera Spring 2016,212571,INSTINCT,Scattered snake-print shirt in lightweight stretch cotton-blend voile.,225.00,Raspberry- Watermelon- White- Cactus- Sorbet Orange- Light Tan- Taupe and Bark,/Images/Tops/etcetera_spring2016_212571_a.png
+92,Tops,Etcetera Spring 2016,212577,PALISADES,Paisley placement-print crepe peasant blouse with keyhole tie neckline.,275.00,Watermelon- Raspberry- White- and Purple,/Images/Tops/etcetera_spring2016_212577_a.png
+93,Tops,Etcetera Spring 2016,212581,SYLVAN,Lightweight cotton sateen in a blue-shaded watercolor-floral print.,225.00,White- Blue- Aqua and Navy,/Images/Tops/etcetera_spring2016_212581_a.png
+94,Tops,Etcetera Spring 2016,212586,OPALINE,Layered georgette sleeveless tunic with silk charmeuse combo.,195.00,Ivory,/Images/Tops/etcetera_spring2016_212586_a.png
+94,Tops,Etcetera Spring 2016,212590,POLKADOT,Sleeveless dot printed viscose voile shirt with snap-tab shoulder detail.,225.00,Black and White,/Images/Tops/etcetera_spring2016_212590_a.png
+95,Tops,Etcetera Spring 2016,212596,PARCHMENT,Washed silk crepe de chine sleeveless blouse with sheer chiffon frame along V-neck to hem.,195.00,Ivory,/Images/Tops/etcetera_spring2016_212596_a.png
+96,Tops,Etcetera Spring 2016,212597,AIRY,Sleeveless shirt in diamond-perforated cotton with solid stretch-cotton combo.,195.00,White,/Images/Tops/etcetera_spring2016_212597_a.png
+97,Tops,Etcetera Spring 2016,212619,CASABLANCA,Stretch-cotton shirt with double-layer spread collar and hidden side zippers.,250.00,White,/Images/Tops/etcetera_spring2016_212619_a.png
+98,Tops,Etcetera Spring 2016,212790,CHAMBRAY,Lightweight cotton stretch chambray voile shirt with easy-fitting bust and dolman sleeves,225.00,Chambray Blue,/Images/Tops/etcetera_spring2016_212790_a.png
+99,Tops,Etcetera Spring 2016,203947,INDULGE,Buttery-soft- lightweight suede square neck tunic with spaghetti straps.,295.00,Buff,/Images/Tops/etcetera_summer2016_203947_a.png
+100,Tops,Etcetera Spring 2016,204902,TAHITI,Optical paisley- printed jersey halter top.,195.00,Navy - White - Mint - Teal and Lt. Pink,/Images/Tops/etcetera_summer2016_204902_a.png
+101,Tops,summer2016,204905,ENGAGE,Blouson- style knit halter top in supple modal jersey with self bow tie at back neckline.,145.00,Cancun Blue,/Images/Tops/etcetera_summer2016_204905_a.png
+102,Tops,summer2016,204911,FILIGREE,Textured metallic knit scoopneck tank flaunts chain and fringe trim along the front.,225.00,White - Black - Navy and Silver,/Images/Tops/etcetera_summer2016_204911_a.png
+103,Tops,summer2016,204925,PURITY,Textured jersey V-neck tank in tonal diamond-and-stripe pattern with smooth jersey trim.,195.00,White,/Images/Tops/etcetera_summer2016_204925_a.png
+104,Tops,summer2016,204936,COCO,Stretch-rayon- high-twist jersey sleeveless knit top with curved V-neckline and halter-shoulder shaping ,115.00,Cola,/Images/Tops/etcetera_summer2016_204936_a.png
+105,Tops,summer2016,204942,DHARMA,Stretch-rayon- high-twist- mea-lange jersey sleeveless knit top with curved V-neckline and halter sholder shaping,115.00,Flax,/Images/Tops/etcetera_summer2016_204942_a.png
+106,Tops,summer2016,210897,CAPER,Sheer-7-gauge fisherman-stitch sweater with tonal tank lining.,195.00,Olive,/Images/Tops/etcetera_summer2016_210897_a.png
+107,Tops,summer2016,210899,RELAXING,Lustrous- 3-gauge- pure cotton sweater in a mix of crochet stitches that creates an airy- openwork stripe ,195.00,White,/Images/Tops/etcetera_summer2016_210899_a.png
+108,Tops,summer2016,210900,ADRIFT,Silk-rayon- 12-gauge jersey knit double V-neck tank with side gusset detail. ,175.00,Navy,/Images/Tops/etcetera_summer2016_210900_a.png
+109,Tops,summer2016,210910,ADRIFT,Silk-rayon- 12-gauge jersey knit cardigan with flattering draped front and cocoon sleeves.,225.00,Navy,/Images/Tops/etcetera_summer2016_210910_a.png
+110,Tops,summer2016,210912,RAVEN,Loose-knit- 5-gauge jersey linen sweater with asymmetrical hem and front/back angled exposed ,225.00,Black,/Images/Tops/etcetera_summer2016_210912_a.png
+111,Tops,summer2016,210914,VANISH,Net-stitch 3-gauge openwork-knit beach hoodie tunic in crisp cotton tape yarn.,225.00,White,/Images/Tops/etcetera_summer2016_210914_a.png
+112,Tops,summer2016,210915,GYPSUM,Lightweight 7-gauge pure linen sweater in a reverse-jersey knit with laced ladder-stitch detail along the sleeves.,195.00,Flax,/Images/Tops/etcetera_summer2016_210915_a.png
+113,Tops,summer2016,210918,PATCHOULI,Sleeveless 7-gauge jersey knit pure linen sweater with crisscross lacing detail down the side panels.,195.00,Cola,/Images/Tops/etcetera_summer2016_210918_a.png
+114,Tops,summer2016,210919,BISCAYNE,Cool- comfortable- 5-gauge pure linen sweater in a mix of jersey and shaker stitches.,225.00,Coral,/Images/Tops/etcetera_summer2016_210919_a.png
+115,Tops,summer2016,210920,TWINKLE,Soft- 12-gauge textured- stitch- viscose blend knit tank subtly sparkles with all-over sequins.,195.00,Ecru,/Images/Tops/etcetera_summer2016_210920_a.png
+116,Tops,summer2016,210921,NIMBUS,Shimmery- metallic foil-print- 5-gauge cotton-blend sweater in a delicate dropneedle-stitch stripe.,225.00,Nickel,/Images/Tops/etcetera_summer2016_210921_a.png
+117,Tops,summer2016,210922,FRINGED,Silk-rayon- 12-gauge square-neck knit tank with fringe and lacing details.,175.00,Coral,/Images/Tops/etcetera_summer2016_210922_a.png
+118,Tops,summer2016,210923,SANDSTORM,Textured stitch- hooded- drape-front- 5-gauge knit cardigan in a luxurious cotton-blend tape yarn.,225.00,Flax,/Images/Tops/etcetera_summer2016_210923_a.png
+119,Tops,summer2016,210926,PORCINI,Sleeveless- pure linen tunic sweater in 5-gauge me-lange jersey with inset side panels that create notched side detail. ,185.00,Driftwood,/Images/Tops/etcetera_summer2016_210926_a.png
+120,Tops,summer2016,210927,GRAVITY,Rayon-blend 12-gauge thick & thin flame-stitch cardigan with adjustable drawstring-tie hem.,250.00,Black,/Images/Tops/etcetera_summer2016_210927_a.png
+121,Tops,summer2016,210928,COOLMINT,Viscose-blend- cowl-neck sleeveless sweater with keyhole back detail.,185.00,Spearmint,/Images/Tops/etcetera_summer2016_210928_a.png
+122,Tops,summer2016,210930,ADOBE,Open-front- pure linen cardigan in subtle drop-stitch jersey stripe with draped collar.,195.00,Passion Fruit,/Images/Tops/etcetera_summer2016_210930_a.png
+123,Tops,summer2016,212893,MARTINIQUE,Polyester crepe de chine tank with diamond-paisley scarf print in front and back.,175.00,Multi-color,/Images/Tops/etcetera_summer2016_212893_a.png
+124,Tops,summer2016,212895,PAPILLON,Butterfly-print oversized tunic in double silk georgette with White lacing and cotton trim.,250.00,Multi-color,/Images/Tops/etcetera_summer2016_212895_a.png
+125,Tops,summer2016,212903,SEASALT,Stretch-cotton shirt with self-lattice front yoke.,225.00,White,/Images/Tops/etcetera_summer2016_212903_a.png
+126,Tops,summer2016,212906,CHAKRA,Lightweight- viscose voile popover blouse with adjustable side ruching,225.00,Coral,/Images/Tops/etcetera_summer2016_212906_a.png
+127,Tops,summer2016,212907,YALE,Yarn- dyed stripe cotton shirt with Grey mea-lange modal-jersey back.,225.00, Grey and Blue-White,/Images/Tops/etcetera_summer2016_212907_a.png
+128,Tops,summer2016,212909,ASHBURY,Silk- blend Bohemian tunic in stylized tie-dye print with eyelet trim.   ,225.00,Multi-color,/Images/Tops/etcetera_summer2016_212909_a.png
+129,Tops,summer2016,212910,SUMMER,Engineered paisley-print sleeveless blouse in lightweight cotton/silk voile.,195.00,White- Passion Fruit- Coral- Blue- Cre‚Äôme De Menthe,/Images/Tops/etcetera_summer2016_212910_a.png
+130,Tops,summer2016,212914,MONTEREY,Sheer- lightweight crinkled cotton tunic blouse with drawstring waist.,225.00,White,/Images/Tops/etcetera_summer2016_212914_a.png
+131,Tops,summer2016,212933,OVERLAY,Sandwashed silk crepe de chine sleeveless blouse with crossover V-neck.,195.00,Passion Fruit,/Images/Tops/etcetera_summer2016_212933_a.png
+132,Tops,summer2016,212946,SYNERGY,Yarn dyed striped cotton shirting sleeveless blouse with White- Navy- Black Diagonal stripe printed lace overlay in front.,225.00,Black and White,/Images/Tops/etcetera_summer2016_212946_a.png
+133,Tops,summer2016,212949,WILDFLOWER,Butterflies floral-print silk crepe de chine sleeveless blouse with ruffled V-neck. ,225.00,Multi-color,/Images/Tops/etcetera_summer2016_212949_a.png
+134,Skirts,spring2016,214503,ETRUSCAN,Vertically striped crinkled georgette A-line skirt with horizontally striped knit waistband.,250.00, Bark- Seafoam- Sunset and Amber,/Images/Skirts/etcetera_spring2016_214503_a.png
+135,Skirts,spring2016,214513,DUNES,Stretch-rayon- 14-gauge jersey- A-line knit skirt.,195.00,Sandstone,/Images/Skirts/etcetera_spring2016_214513_a.png
+136,Skirts,spring2016,214518,BONBON,Gauze lace pencil skirt with satin lining.,250.00,Bark,/Images/Skirts/etcetera_spring2016_214518_a.png
+137,Skirts,spring2016,214521,DIAGONAL,Smooth- stretch matte crepe pencil skirt with bias stripe printed front- solid back.,185.00,Black - Ivory - Ice Pink and Rose,/Images/Skirts/etcetera_spring2016_214521_a.png
+138,Skirts,spring2016,214524,MODERN,Textured jacquard non-stretch stripe pencil skirt.,195.00,Daffodil - Ivory and Brown,/Images/Skirts/etcetera_spring2016_214524_a.png
+139,Skirts,spring2016,214525,APPLIQUE,Floral-embroidered pencil skirt in Natural textured digital print twill-weave organza with subtle shimmer.,325.00,Natural,/Images/Skirts/etcetera_spring2016_214525_a.png
+140,Skirts,spring2016,214540,FREQUENCY,Cotton-blend- 5-gauge primitive-patterned jacquard knit straight skirt in mixed tape yarn.,195.00,Black and White,/Images/Skirts/etcetera_spring2016_214540_a.png
+141,Skirts,spring2016,214556,CALIENTE,Faux asymmetrical button-front A-line skirt in stretch cotton raised twill.,195.00,Red,/Images/Skirts/etcetera_spring2016_214556_a.png
+142,Skirts,spring2016,214560,STRAIGHT,Shimmery metallic-flecked striped grid tweed straight skirt with Navy silk combo Regular fit.,195.00,Ivory - Black - Navy - Cactus - White Metallic,/Images/Skirts/etcetera_spring2016_214560_a.png
+143,Skirts,spring2016,214568,VIVID,Watercolor floral printed cotton silk voile skirt with combo contrast textured cotton waistband.,225.00, Red - Blue - Black - White and Purple,/Images/Skirts/etcetera_spring2016_214568_a.png
+144,Skirts,spring2016,214584,SLEEK,Geometric printed stretch cotton pencil skirt.,185.00,Aqua Seafoam - Black - Red - White and Mocha,/Images/Skirts/etcetera_spring2016_214584_a.png
+145,Skirts,spring2016,214607,COOKIE,Rayon- blend-14-gauge jacquard knit pegged pencil skirt in floral ironwork pattern.,195.00, Ivory and Sandstone,/Images/Skirts/etcetera_spring2016_214607_a.png
+146,Skirts,spring2016,214614,RIZZO,Regular waist ponte- knit pencil skirt.,195.00,Black,/Images/Skirts/etcetera_spring2016_214614_a.png
+147,Skirts,spring2016,214615,HORIZON,Stretch-rayon 14-gauge striped jersey slightly pegged knit pencil skirt.,175.00,White and Navy,/Images/Skirts/etcetera_spring2016_214615_a.png
+148,Skirts,spring2016,214617,TUTTIFRUITY,Soft- multi-color ribbon-tweed A-line skirt with a hint of metallic shimmer.,225.00,Ecru - Sunset - Green and Orange,/Images/Skirts/etcetera_spring2016_214617_a.png
+149,Skirts,spring2016,214791,FANCY,Rayon-blend- 14-gauge jersey pleated- sweater-knit maxi skirt.,225.00,Black,/Images/Skirts/etcetera_spring2016_214791_a.png
+150,Skirts,spring2016,214796,DELANO,Stretch cotton blend pencil skirt with silver grommets and lacing detail.,225.00,White,/Images/Skirts/etcetera_spring2016_214796_a.png
+151,Skirts,spring2016,214797,CLEMATIS,Floral-print compact-knit A-line skirt.,165.00, White Black Raspberry Watermelon Olive and Blue,/Images/Skirts/etcetera_spring2016_214797_a.png
+152,Skirts,spring2016,214798,HIPPIE,Buttery soft genuine suede straight skirt withù fringe hem.,475.00,Honey,/Images/Skirts/etcetera_spring2016_214798_a.png
+153,Skirts,spring2016,414507,AMBROSIA,Metallic-flecked tweed straight skirt with combo metallic stripe-tweed panel and fringe trim.,195.00,Pale Vermillion and Ecru,/Images/Skirts/etcetera_spring2016_414507_a.png
+154,Skirts,spring2016,414523,MARVELOUS,Pegged pencil skirt- in broken pinstripe stretch suiting.,195.00,Taupe and Ivory,/Images/Skirts/etcetera_spring2016_414523_a.png
+155,Skirts,spring2016,414531,LACQUERED,Pegged pencil skirt with scoop pockets- in raffia-textured basketweave.,195.00,Raspberry,/Images/Skirts/etcetera_spring2016_414531_a.png
+156,Skirts,spring2016,414543,SARAFINA,Soft tweed straight skirt.,195.00,Ivory- Seafoam Aqua Olive Blush and White,/Images/Skirts/etcetera_spring2016_414543_a.png
+157,Skirts,spring2016,414585,LEILA,Textured stretch cotton A-line skirt with inverted front pleats and button detail.,195.00,Black,/Images/Skirts/etcetera_spring2016_414585_a.png
+158,Skirts,spring2016,414789,FELLINI,Pegged pencil skirt- crisply tailored in crosshatch-suiting.,185.00,Black and White,/Images/Skirts/etcetera_spring2016_414789_a.png
+159,Skirts,summer2016,214889,NATIVE,Aztec-stripe A-line skirt in printed Stretch Cotton Sateen.,185.00,Cancun Blue- Oyster- Coral-  Ecru- Aruba Blue and Daffodil,/Images/Skirts/etcetera_summer2016_214889_a.png
+160,Skirts,summer2016,214912,CHESAPEAKE,Denim-look pencil skirt in a substantial cross-dyed cotton stretch jersey. ,195.00,Navy and White,/Images/Skirts/etcetera_summer2016_214912_a.png
+161,Skirts,summer2016,214913,DARLING,Colorful crosshatch-printed stretch cotton sateen straight skirt with white trim.,195.00,Black White - Hot Pink - Coral - Mint - Aqua - and Passion Fruit,/Images/Skirts/etcetera_summer2016_214913_a.png
+162,Skirts,summer2016,214927,OCEANA,Tech twill pencil skirt with diamond jacquard left side panel. ,195.00,Navy and White,/Images/Skirts/etcetera_summer2016_214927_a.png
+163,Skirts,summer2016,214932,INTRICATE,Banded- tribal-patterned jacquard-knit pencil skirt.,185.00,White Black and Sand,/Images/Skirts/etcetera_summer2016_214932_a.png
+164,Skirts,summer2016,214939,GAZEBO,Long- A-line- drop-stitch jersey- gored knit skirt with chevon-patterned lace stitch border.,225.00,White,/Images/Skirts/etcetera_summer2016_214939_a.png
+165,Skirts,summer2016,214944,SAHARA,Sheer paisley-print cotton voile full skirt.,195.00,Cola - Melon - Natural - Icy Blue and Ivory,/Images/Skirts/etcetera_summer2016_214944_a.png
+166,Skirts,summer2016,214945,RESORT,Smooth stretch cotton sateen A-line skirt in bold floral print.,165.00,White - Passion Fruit - Cola  and Chartreuse,/Images/Skirts/etcetera_summer2016_214945_a.png
+167,Skirts,summer2016,414892,DIVINE,Lightweight- tweed-textured jacquard pencil skirt.,195.00,Oyster - Ecru and Ivory,/Images/Skirts/etcetera_summer2016_414892_a.png
+168,Pants,spring2016,208606,WANDERER,Stretch cotton blend short.,175.00,Black,/Images/Pants/etcetera_spring2016_208606_a.png
+169,Pants,spring2016,209504,UPBEAT,Garment-washed stretch cotton jean in a graphic paisley print.,195.00,White - Raspberry - Sunset,/Images/Pants/etcetera_spring2016_209504_a.png
+170,Pants,spring2016,209506,CALVADOS,Ornate diamond patterned stretch jacquard front with stretch twill denim back.,250.00,Ecru,/Images/Pants/etcetera_spring2016_209506_a.png
+171,Pants,spring2016,209512,Riley,Supple- distressed texture- faux-suede leggings with a rich vintage look and feel.,250.00,Tobacco,/Images/Pants/etcetera_spring2016_209512_a.png
+172,Pants,spring2016,209515,BLUEJEAN,Jacquard-woven ankle-zip super stretch jean with a unique striated look- subtle texture,225.00,Denim Blue,/Images/Pants/etcetera_spring2016_209515_a.png
+173,Pants,spring2016,209533,PITCH,Stretch-crepe culottes.,225.00,Black,/Images/Pants/etcetera_spring2016_209533_a.png
+174,Pants,spring2016,209536,KNOCKOUT,Smooth- stretch-cotton boot cut pant.,195.00,Kiss,/Images/Pants/etcetera_spring2016_209536_a.png
+175,Pants,spring2016,209546,TROUSER,Trousers in tropical- weight stretch gabardine with a soft hand- elegant drape.,225.00,Khaki,/Images/Pants/etcetera_spring2016_209546_a.png
+176,Pants,spring2016,209549,ROMA,Smooth- stretch cotton blend pant with pintucking on the front and back of both leg at the leg creases. ,195.00,Clay,/Images/Pants/etcetera_spring2016_209549_a.png
+177,Pants,spring2016,209555,ZIPPED,Stretch-denim jean with a fashion edge: three rows of White/Gold and Black/Black zipper-trim at the side seams.,250.00,Black,/Images/Pants/etcetera_spring2016_209555_a.png
+178,Pants,spring2016,209579,SPORTIF,Stretch-knit jersey leggings with sporty mesh insets at hips and legs.,175.00,Black,/Images/Pants/etcetera_spring2016_209579_a.png
+179,Pants,spring2016,209582,NAUTILUS,Smooth-  stretch cotton blend pant with pintucking on the front and back of both leg at the leg creases. ,195.00,Navy,/Images/Pants/etcetera_spring2016_209582_a.png
+180,Pants,spring2016,209589,OXYGEN,Smooth stretch-cotton blend pant styled with self fabric inserts to create stipe effect along side seams from hip to hem. ,225.00,White,/Images/Pants/etcetera_spring2016_209589_a.png
+181,Pants,spring2016,209608,ALMONDINE,Garment-washed- bi-stretch pant with moto- style zipper pockets,225.00,LightTan,/Images/Pants/etcetera_spring2016_209608_a.png
+182,Pants,spring2016,209618,CHABLIS,Smooth cotton-blend stretch bootcut pant.,195.00,Ivory,/Images/Pants/etcetera_spring2016_209618_a.png
+183,Pants,spring2016,209794,STAMPEDE,Garment-washed- stretch cotton jean in a graphic zebra-stripe print.,225.00,Black and White,/Images/Pants/etcetera_spring2016_209794_a.png
+184,Pants,spring2016,409502,BIANCA,Stretch-denim bootcut jean.,195.00,White,/Images/Pants/etcetera_spring2016_409502_a.png
+185,Pants,spring2016,409561,TRULY,Stretch twill denim straight-leg trouser jean.,195.00,Dark Indigo,/Images/Pants/etcetera_spring2016_409561_a.png
+186,Pants,spring2016,409786,ENIGMA,Smooth- stretch-cotton straight-leg pant.,225.00,Black,/Images/Pants/etcetera_spring2016_409786_a.png
+187,Pants,spring2016,409789,FELLINI,Smartly tailored straight-leg trouser in crisp crosshatch suiting.,225.00,Black and White,/Images/Pants/etcetera_spring2016_409789_a.png
+188,Pants,summer2016,208929,ANGELICA,Stretch cotton- garment washed shorts with metallic shimmer.,165.00,White and Silver,/Images/Pants/etcetera_summer2016_208929_a.png
+189,Pants,summer2016,209888,MASON,Stretch cotton-blend slim-leg pants with deep slit cuffs.,225.00,Oyster,/Images/Pants/etcetera_summer2016_209888_a.png
+190,Pants,summer2016,209890,FRESH,Garment-washed stretch-denim skinny jeans with buttoned ankle detail.,195.00,White,/Images/Pants/etcetera_summer2016_209890_a.png
+191,Pants,summer2016,209897,JOURNEY,Yarn-dyed dobby stripe- garment washed cropped pants.,225.00,Ivory and Cola,/Images/Pants/etcetera_summer2016_209897_a.png
+192,Pants,summer2016,209904,MINTY,Garment washed stretch cotton twill pants with center-front topstitched seaming,195.00,Creame De Menthe,/Images/Pants/etcetera_summer2016_209904_a.png
+193,Pants,summer2016,209905,BLUEMOON,Foil printed stretch cotton- garment washed jeans.,195.00,Indigo,/Images/Pants/etcetera_summer2016_209905_a.png
+194,Pants,summer2016,209919,FATHOM,Soft crepe wide-leg trouser with wrap over panels that tie at waist.,295.00,Navy,/Images/Pants/etcetera_summer2016_209919_a.png
+195,Pants,summer2016,209924,NEUTRAL,Easy linen-blend trousers with paperbag-style tie waist with combo cotton facing.,185.00,Sage,/Images/Pants/etcetera_summer2016_209924_a.png
+196,Pants,summer2016,209936,MUSE,Animal-print stretch cotton twill- garment washed jean.,195.00,White and Passion Fruit,/Images/Pants/etcetera_summer2016_209936_a.png
+197,Pants,summer2016,209943,TOBACCO,Bi-stretch cotton- garment washed slim leg pants with exposed ankle zippers.,185.00,Cola,/Images/Pants/etcetera_summer2016_209943_a.png
+198,Pants,summer2016,408942,NAVIGATOR,Soft- garment-washed cross dyed linen wide-leg shorts with paperbag-style waist and White rope belt.,175.00,Indigo,/Images/Pants/etcetera_summer2016_408942_a.png
+199,Dresses,spring2016,215501,ENERGY,Mod- engineered-print jersey sheath dress with tassel-trim belt.,335.00,Black - White - Raspberry - Watermelon - Light Tan and Bark,/Images/Dresses/etcetera_spring2016_215501_a.png
+200,Dresses,spring2016,215516,AGLOW,Matte and shine- sleeveless multi- stitch knit sweater dress in fit and flare shape.,275.00, Pale Vermillion,/Images/Dresses/etcetera_spring2016_215516_a.png
+201,Dresses,spring2016,215519,OBLIVION,Stretch matte crepe shift dress flaunts 3/4-sleeves laced and tied with silk georgette. ,325.00,Black,/Images/Dresses/etcetera_spring2016_215519_a.png
+202,Dresses,spring2016,215520,MARLOWE,Geometric floral patchwork-print henley dress in smooth jersey knit.,285.00,Sunset - Pale Vermillion - Bark - Black - Denim Blue - Ambur - Ecru - Khaki,/Images/Dresses/etcetera_spring2016_215520_a.png
+203,Dresses,spring2016,215528,ANGULAR,Stretch Compact-knit A-line shift dress.,295.00,Watermelon,/Images/Dresses/etcetera_spring2016_215528_a.png
+204,Dresses,spring2016,215529,KASHMIR,Paisley-stripe printed chiffon kafton dress with self belt.,350.00,Orange - White - Ivory - Green - Brown - Tan,/Images/Dresses/etcetera_spring2016_215529_a.png
+205,Dresses,spring2016,215541,FLAMINGO,Satin-back crepe sheath with softly pleated and gathered neckline.,335.00,Flamingo,/Images/Dresses/etcetera_spring2016_215541_a.png
+206,Dresses,spring2016,215542,STEINWAY,Sleeveless pattern-blocked knit sheath dress in grid-pattern ottoman stitch.,295.00,Black - Ivory,/Images/Dresses/etcetera_spring2016_215542_a.png
+207,Dresses,spring2016,215552,BONVOYAGE,Snap-front shirtdress in stretch cotton sateen.,325.00,Clay,/Images/Dresses/etcetera_spring2016_215552_a.png
+208,Dresses,spring2016,215553,FEMININE,Sleeveless sheath dress in ornate paisley placement-print jersey.,295.00,Black - White - Blue Seafoam - Lavender - Red - Daffodil - Pink - Green - Purple,/Images/Dresses/etcetera_spring2016_215553_a.png
+209,Dresses,spring2016,215573,KANSAS,Sleeveless lace-overlay sheath dress with gingham check lining.,295.00,Navy - White,/Images/Dresses/etcetera_spring2016_215573_a.png
+210,Dresses,spring2016,215574,ELOQUENT,Brushstroke lattice-print jersey shirtdress with Navy silk crepe de Chine trim.,325.00,Navy - Aqua - Cactus - White - Grey,/Images/Dresses/etcetera_spring2016_215574_a.png
+211,Dresses,spring2016,215594,OREO,Stretch-crepe easy sleeveless shift dress with White heavy stretch-crepe trim.,335.00,Black - White,/Images/Dresses/etcetera_spring2016_215594_a.png
+212,Dresses,spring2016,215599,THRILLER,Stretch-crepe sheath dress with smoky crystal-trimmed straps.,335.00,Black,/Images/Dresses/etcetera_spring2016_215599_a.png
+213,Dresses,spring2016,215613,ISLAND,Textured cotton knit sleeveless sheath dress with open-back keyhole.,225.00,Kiss,/Images/Dresses/etcetera_spring2016_215613_a.png
+214,Dresses,spring2016,215787,FLORA,Sheath dress in floral-print stretch-crepe with draped front detail.,325.00,Black - White - Raspberry - Watermelon - Yellow - Blue,/Images/Dresses/etcetera_spring2016_215787_a.png
+215,Dresses,spring2016,415526,DAYBREAK,Soft tweed sleeveless sheath dress. ,295.00,Daffodil - Ivory,/Images/Dresses/etcetera_spring2016_415526_a.png
+216,Dresses,spring2016,415563,PINKLADY,Engineered- python border-print stretch-cotton sheath dress with topstitched seaming.,295.00,Pink - Bark - Taupe - Clove - White,/Images/Dresses/etcetera_spring2016_415563_a.png
+217,Dresses,summer2016,215886,ALLEGRA,Smooth stretch- cotton sleeveless shift in a bold tropical print.,295.00,White - Black - Petunia - Coral - BlueBell - Orange - Green,/Images/Dresses/etcetera_summer2016_215886_a.png
+218,Dresses,summer2016,215887,SUNDANCE,Blossom-print silk georgette peasant dress with stretchy smocked neckline that can be worn on or off the shoulders.,335.00,Ivory - Cameo - Citrine - Grey - Black - Brown,/Images/Dresses/etcetera_summer2016_215887_a.png
+219,Dresses,summer2016,215896,VILLA,Laser-cut cotton twill floral on lace sleeveless dress with cotton sateen trim.,335.00,White,/Images/Dresses/etcetera_summer2016_215896_a.png
+220,Dresses,summer2016,215899,CASTAWAY,Stretch-denim garment washed sleeveless sheath dress with lace-up bodice.,285.00,Medium Blue,/Images/Dresses/etcetera_summer2016_215899_a.png
+221,Dresses,summer2016,215915,BLUEGRASS,Drapey- garment washed chambray shirtdress with self sash.,265.00,Medium Blue,/Images/Dresses/etcetera_summer2016_215915_a.png
+222,Dresses,summer2016,215917,TERRACE,Feathers and leaves printed crepe georgette- halter maxi dress with Gold metal rivet-studded neckline.,350.00,Cola - Passion Fruit - White - Yellow - Khaki - Lavender - Oyster - Black - Pink,/Images/Dresses/etcetera_summer2016_215917_a.png
+223,Dresses,summer2016,215920,MOD,Geometric cotton lace shift with finished-edge hem.,335.00,White,/Images/Dresses/etcetera_summer2016_215920_a.png
+224,Dresses,summer2016,215928,SWAG,Medallion printed denim jacquard sleeveless sheath with bead-embellished neckline.,335.00,Indigo Blue - Ivory,/Images/Dresses/etcetera_summer2016_215928_a.png
+225,Dresses,summer2016,215931,ORION,Multi-stitch crochet knit dress with beaded & tasseled drawstring at empire waist.,295.00,Black,/Images/Dresses/etcetera_summer2016_215931_a.png
+226,Dresses,summer2016,215934,EBONY,Gradient- three- dimensional novelty stitch- fit-and-flare knit dress.,250.00,Black,/Images/Dresses/etcetera_summer2016_215934_a.png
+227,Dresses,summer2016,215937,FOCUS,Lightweight- textured-stripe sweater-knit sheath dress.,275.00,Black - White,/Images/Dresses/etcetera_summer2016_215937_a.png
+228,Dresses,summer2016,215941,BAY,Jacquard-dot- sleeveless knit sheath dress.,250.00,Navy - White,/Images/Dresses/etcetera_summer2016_215941_a.png

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<SharpShopDirect.Models.Item>
+
+@{
+    ViewBag.Title = "About";
+}
+<h2>The Collection</h2>
+
+<p>Enter search criteria:</p>
+
+@using (Html.BeginForm("About", "Items", FormMethod.Get))
+{
+    <p>
+        Model: @Html.DropDownList("ItemType", "All")
+        Search by ItemName: @Html.TextBox("SearchString") <br /><br />
+        <input type="submit" value="Lookup" />
+    </p>
+
+}
+
+<table class="table">
+    <tr>
+        <th>
+
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Collection)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Image)" width="118" height="200" />
+                @Html.ActionLink("Details", "Details", new { id = item.ItemId })
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Collection)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ItemId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ItemId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ItemId })
+            </td>
+        </tr>
+    }
+
+</table>
