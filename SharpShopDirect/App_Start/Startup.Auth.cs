@@ -54,9 +54,9 @@ namespace SharpShopDirect
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "614289208719624",
+               appSecret: "b9bb0169037032fa40af313618376640");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
