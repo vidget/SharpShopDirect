@@ -1,0 +1,117 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1920px;
+	 height: 1275px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer13 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1330px;
+	 height: 1275px;
+	 z-index:1;
+} 
+
+ #Layer14 
+{ 
+	 left: 1328px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 592px;
+	 height: 1275px;
+	 z-index:2;
+} 
+
+ #YourExpertWardrobeSt 
+{ 
+	 left: 1344px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 553px;
+	 height: 45px;
+	 z-index:3;
+} 
+
+ #Layer15 
+{ 
+	 left: 344px; 
+	 top: 141px; 
+	 position: absolute; 
+	 width: 688px;
+	 height: 1030px;
+	 z-index:4;
+} 
+
+ #Name 
+{ 
+	 left: 145px; 
+	 top: 109px; 
+	 position: absolute; 
+	 width: 112px;
+	 height: 32px;
+	 z-index:5;
+} 
+
+ #Style 
+{ 
+	 left: 1060px; 
+	 top: 128px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 45px;
+	 z-index:6;
+} 
+
+ #TrunkShowGiftCertifi 
+{ 
+	 left: 1455px; 
+	 top: 511px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 161px;
+	 z-index:7;
+} 
+
+ #Matildasay 
+{ 
+	 left: 1478px; 
+	 top: 381px; 
+	 position: absolute; 
+	 width: 226px;
+	 height: 45px;
+	 z-index:8;
+} 
+
+ #Wardrobe 
+{ 
+	 left: 1483px; 
+	 top: 249px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 34px;
+	 z-index:9;
+} 
+
+ #SharpShopDirect 
+{ 
+	 left: 1422px; 
+	 top: 119px; 
+	 position: absolute; 
+	 width: 339px;
+	 height: 43px;
+	 z-index:10;
+} 
