@@ -1,0 +1,37 @@
+﻿@model IEnumerable<SharpShopDirect.Models.Blog>
+
+@{
+    ViewBag.Title = "Matilda's Say";
+}
+
+<h2>Matilda's Say</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MyComment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MyComment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.Blogid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Blogid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Blogid })*@
+        </td>
+    </tr>
+}
+
+</table>
