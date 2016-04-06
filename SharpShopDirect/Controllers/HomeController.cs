@@ -20,6 +20,15 @@ namespace SharpShopDirect.Controllers
             return View();
         }
 
+        public ActionResult Collections()
+        {
+
+
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
