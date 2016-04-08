@@ -10,8 +10,7 @@
 @using (Html.BeginForm("About", "Items", FormMethod.Get))
 {
     <p>
-        Model: @Html.DropDownList("ItemType", "All")
-        Search by ItemName: @Html.TextBox("SearchString") <br /><br />
+        Type: @Html.DropDownList("ItemType", "All")
         <input type="submit" value="Lookup" />
     </p>
 

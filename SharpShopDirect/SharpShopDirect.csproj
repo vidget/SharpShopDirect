@@ -358,6 +358,7 @@
     <Content Include="Images\su16_home_hero-7.jpg" />
     <Content Include="Images\su16_home_hero-8.jpg" />
     <Content Include="Images\su16_home_hero-9.jpg" />
+    <Content Include="Images\SummerWebPreview.jpg" />
     <Content Include="Images\Tops\etcetera_spring2016_204500_a.png" />
     <Content Include="Images\Tops\etcetera_spring2016_204505_a.png" />
     <Content Include="Images\Tops\etcetera_spring2016_204562_a.png" />
@@ -529,6 +530,14 @@
     <Content Include="Views\Blogs\Edit.cshtml" />
     <Content Include="Views\Blogs\Index.cshtml" />
     <Content Include="Views\Blogs\Manage.cshtml" />
+    <Content Include="Views\Home\Jackets.cshtml" />
+    <Content Include="Views\Home\Tops.cshtml" />
+    <Content Include="Views\Home\Skirts.cshtml" />
+    <Content Include="Views\Home\Pants.cshtml" />
+    <Content Include="Views\Home\Dresses.cshtml" />
+    <Content Include="Views\Home\Accessories.cshtml" />
+    <Content Include="Views\Home\Necessities.cshtml" />
+    <Content Include="Views\Home\TrunkShow.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

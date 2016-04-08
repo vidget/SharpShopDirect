@@ -15,24 +15,66 @@ namespace SharpShopDirect.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "About";
             return View();
         }
 
         public ActionResult Collections()
         {
-
-
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "The Collection";
+            return View();
+        }
+        
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Contact";
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Jackets()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "The Jackets";
+            return View();
+        }
 
+        public ActionResult Tops()
+        {
+            ViewBag.Message = "The Tops";
+            return View();
+        }
+
+        public ActionResult Skirts()
+        {
+            ViewBag.Message = "The Skirts";
+            return View();
+        }
+
+        public ActionResult Pants()
+        {
+            ViewBag.Message = "The Pants";
+            return View();
+        }
+
+        public ActionResult Dresses()
+        {
+            ViewBag.Message = "The Dresses";
+            return View();
+        }
+
+        public ActionResult Accessories()
+        {
+            ViewBag.Message = "The Accessories";
+            return View();
+        }
+        public ActionResult Necessities() 
+        {
+            ViewBag.Message = "The Necessities";
+            return View();
+        }
+
+        public ActionResult TrunkShow()
+        {
+            ViewBag.Message = "The Trunk Show";
             return View();
         }
     }
