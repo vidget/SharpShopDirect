@@ -4292,7 +4292,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 9.5px 15px;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 21px;
   height: 40px;
 }
@@ -4611,28 +4611,28 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-  color: #ebebeb;
+  color: #4e5d6c;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ebebeb;
+  color: #5bc0de;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #ebebeb;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #ebebeb;
+  color: #4e5d6c;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ebebeb;
-  background-color: #c85e17;
+  color: #fff;
+  background-color: #c0c0c0;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ebebeb;
+  color: #f0ad4e;
   background-color: #e7e372;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -6767,7 +6767,7 @@ button.close {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  font-size: 12px;
+  font-size: 15px;
 }
 .navbar-default .badge {
   background-color: #fff;
@@ -6825,7 +6825,7 @@ button.close {
 }
 table,
 .table {
-  font-size: 12px;
+  font-size: 15px;
 }
 table a:not(.btn),
 .table a:not(.btn) {

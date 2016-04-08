@@ -17,12 +17,54 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("SharpShop.direct", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                
+
+                @*@Html.ActionLink("SharpShop.direct", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+
+
             </div>
             <div class="navbar-collapse collapse">
+
+
                 <ul class="nav navbar-nav">
 
+                    <li>
+                        <span>
+                            <a href="@Url.Action("Index", "Home")" class="pull-left">
+                                <img src="~/Images/SharpShop.png" title="title" alt="SharpShop.direct" width="240" />
+                            </a>
+                        </span>
+                    </li>
+
+
+                </ul>
+
+
+                <ul class="nav navbar-nav">
+
+
+
                     <li>@Html.ActionLink("Wardrobe", "Collections", "Home")</li>
+
+
+                  
+                    @*<li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Wardrobe
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@Html.ActionLink("Wardrobe", "Collections", "Home")">Jackets</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>*@
+
+
+
+
+
                     <li>@Html.ActionLink("Matilda's Say", "Index", "Blogs")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("ItemList", "About", "Items")</li>
@@ -37,7 +79,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - SharpShop.direct</p>
+            <p>&copy; @DateTime.Now.Year -<img src="~/Images/SharpShop.png" width="120"></p>
         </footer>
     </div>
 
