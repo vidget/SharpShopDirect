@@ -22,9 +22,9 @@ namespace SharpShopDirect.Context
 
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Item> Items { get; set; }
-
-
-
+        public DbSet<Favorite> Favorites { get; set; }
+         
+         
 
     }
 }
