@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using SharpShopDirect.Context;
 using SharpShopDirect.Models;
+using Microsoft.AspNet.Identity;
 
 namespace SharpShopDirect.Controllers
 {
@@ -15,11 +16,48 @@ namespace SharpShopDirect.Controllers
     {
         private FashionContext db = new FashionContext();
 
+        
+
+
         // GET: Favorites
+         [AllowAnonymous]
         public ActionResult Index()
         {
+
+
             return View(db.Favorites.ToList());
         }
+
+
+        
+        public ActionResult MyFavorite()
+        {
+             
+            //creates a list of favorite
+            var GenreLst = new List<Favorite>();
+
+            //get's the string ID of the current Logged in User
+            string currentUser = User.Identity.GetUserId();
+
+            //returns the favorites where the UserID matches the logged in user
+            var GenreQry = from d in db.Favorites
+
+                           where d.UserId == currentUser
+                           select d;
+
+            //adds the object to the List
+            GenreLst.AddRange(GenreQry);
+
+
+            //ItemList.AddRange(ItemList);
+
+
+            return View(GenreQry.ToList());
+        }
+
+
+
+
 
         // GET: Favorites/Details/5
         public ActionResult Details(int? id)
@@ -47,7 +85,7 @@ namespace SharpShopDirect.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
+        public ActionResult Create([Bind(Include = "FavoriteId,UserId,ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Favorite favorite)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +117,7 @@ namespace SharpShopDirect.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
+        public ActionResult Edit([Bind(Include = "FavoriteId,UserId,ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Favorite favorite)
         {
             if (ModelState.IsValid)
             {

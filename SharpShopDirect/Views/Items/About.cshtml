@@ -40,6 +40,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Color)
         </th>
+        <th>
+            Add to Favorites
+        </th>
 
         <th></th>
     </tr>
@@ -48,8 +51,9 @@
     {
         <tr>
             <td>
-                <img src="@Html.DisplayFor(modelItem => item.Image)" width="118" height="200" />
-                @Html.ActionLink("Details", "Details", new { id = item.ItemId })
+                <a href='@Url.Action("Details", "Items", new { id = item.ItemId })'>
+                     <img src="@Html.DisplayFor(modelItem => item.Image)" width="118" height="200" />
+                </a>
             </td>
 
             <td>
@@ -69,6 +73,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                <button type="button" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your favorites')">Click Me!</button>
             </td>
 
             <td>

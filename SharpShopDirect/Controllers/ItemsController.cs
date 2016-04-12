@@ -8,12 +8,14 @@ using System.Web;
 using System.Web.Mvc;
 using SharpShopDirect.Context;
 using SharpShopDirect.Models;
+using Microsoft.AspNet.Identity;
 
 namespace SharpShopDirect.Controllers
 {
     public class ItemsController : Controller
     {
         private FashionContext db = new FashionContext();
+        private FashionContext db2 = new FashionContext();
 
         // GET: Items
         public ActionResult Index()
@@ -21,6 +23,53 @@ namespace SharpShopDirect.Controllers
             return View(db.Items.ToList());
         }
 
+        public ActionResult MyItems() 
+        {
+            
+
+            //creates a list of favorite
+           // var ItemLst = new List<Item>();
+           // var FavList = new List<int>();
+
+            //get's the string ID of the current Logged in User
+            string currentUser = User.Identity.GetUserId();
+
+            //returns the favorites where the UserID matches the logged in user
+            var GenreQry = from d in db.Favorites
+
+                           where d.UserId == currentUser
+
+                           select d;
+
+            ////adds the object to the List
+            //FavList.AddRange(GenreQry);
+
+
+            //foreach(int itemId in FavList)
+            //{
+            //                   var ItemList = from e in db.Items
+            //                                    where e.ItemId == itemId
+            //                                    select e;
+            //                   ItemLst.AddRange(ItemList); 
+
+            //}
+
+            ////ItemList.AddRange(ItemList);
+
+
+            return View(GenreQry.ToList());
+
+
+
+
+
+
+
+
+
+
+            
+        }
 
 
         public ActionResult About(string itemType, string searchString)

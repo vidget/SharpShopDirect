@@ -1,26 +1,21 @@
-﻿@model IEnumerable<SharpShopDirect.Models.Item>
+﻿@model IEnumerable<SharpShopDirect.Models.Favorite>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "MyFavorite";
 }
 
-<h2>Index</h2>
+<h2>MyFavorite</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-
-
-
 <table class="table">
     <tr>
         <th>
 
         </th>
        
-        <th>
-            @Html.DisplayNameFor(model => model.Collection)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.ItemName)
         </th>
@@ -36,23 +31,20 @@
         <th>
             @Html.DisplayNameFor(model => model.Color)
         </th>
-        <th>
-           
-        </th>
        
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
+
         <td>
             <img src="@Html.DisplayFor(modelItem => item.Image)" width="118" height="200" />
-            @Html.ActionLink("Details", "Details", new { id = item.ItemId })
+           
         </td>
+
        
-        <td>
-            @Html.DisplayFor(modelItem => item.Collection)
-        </td>
+       
         <td>
             @Html.DisplayFor(modelItem => item.ItemName)
         </td>
@@ -68,14 +60,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.Color)
         </td>
+       
         <td>
-            <button>ADD</button>
-        </td>
-        
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ItemId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ItemId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ItemId })
+            @Html.ActionLink("Edit", "Edit", new { id=item.FavoriteId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FavoriteId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FavoriteId })
         </td>
     </tr>
 }
