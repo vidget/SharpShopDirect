@@ -16,6 +16,8 @@ namespace SharpShopDirect.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+       
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -32,5 +34,6 @@ namespace SharpShopDirect.Models
 
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
     }
 }

@@ -20,23 +20,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-
+                        
                     </div>
                     <div class="navbar-collapse collapse">
-
-
-                        <ul class="nav navbar-nav">
-
-                            <li>
-                                <span>
-                                    <a href="@Url.Action("Index", "Home")" class="pull-left">
-                                        <img src="~/Images/SharpShop.png" title="title" alt="SharpShop.direct" width="240" />
-                                    </a>
-                                </span>
-                            </li>
-
-
-                        </ul>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <span>
+                                @Html.ActionLink("SharpShop.direct", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                            </span>
+                        </li>
+                    </ul>
 
 
                         <ul class="nav navbar-nav">
@@ -76,7 +69,8 @@
                 @RenderBody()
                 <hr />
                 <footer>
-                    <p>&copy; @DateTime.Now.Year -<img src="~/Images/SharpShop.png" width="120"></p>
+                    <p>&copy; @DateTime.Now.Year SharpShop.direct</p> 
+                    <center>*Please bear with us while we sharpen our web shopping experience.</center>
                 </footer>
             </div>
 
