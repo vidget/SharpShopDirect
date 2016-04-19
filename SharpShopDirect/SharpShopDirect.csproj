@@ -190,16 +190,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\Accessories\etcetera_spring2016_216526_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_216527_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_216528_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_217530_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_217785_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_217786_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_spring2016_217795_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_summer2016_216938_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_summer2016_217940_a.jpg" />
-    <Content Include="Images\Accessories\etcetera_summer2016_217951_a.jpg" />
+    <Content Include="Images\Accessories\etcetera_spring2016_216526_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_216527_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_216528_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_217530_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_217785_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_217786_a.png" />
+    <Content Include="Images\Accessories\etcetera_spring2016_217795_a.png" />
+    <Content Include="Images\Accessories\etcetera_summer2016_216938_a.png" />
+    <Content Include="Images\Accessories\etcetera_summer2016_216939_a.png" />
+    <Content Include="Images\Accessories\etcetera_summer2016_217940_a.png" />
+    <Content Include="Images\Accessories\etcetera_summer2016_217951_a.png" />
     <Content Include="Images\Dresses\etcetera_spring2016_215501_a.png" />
     <Content Include="Images\Dresses\etcetera_spring2016_215516_a.png" />
     <Content Include="Images\Dresses\etcetera_spring2016_215519_a.png" />
@@ -232,6 +233,7 @@
     <Content Include="Images\Dresses\etcetera_summer2016_215934_a.png" />
     <Content Include="Images\Dresses\etcetera_summer2016_215937_a.png" />
     <Content Include="Images\Dresses\etcetera_summer2016_215941_a.png" />
+    <Content Include="Images\hero1.jpg" />
     <Content Include="Images\Jackets\etcetera_spring2016_205500_a.png" />
     <Content Include="Images\Jackets\etcetera_spring2016_205547_a.png" />
     <Content Include="Images\Jackets\etcetera_spring2016_205557_a.png" />
@@ -577,7 +579,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50232</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

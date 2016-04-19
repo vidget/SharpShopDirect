@@ -9,6 +9,9 @@ using System.Web.Mvc;
 using SharpShopDirect.Context;
 using SharpShopDirect.Models;
 using Microsoft.AspNet.Identity;
+using System.Net.Mail;
+
+
 
 namespace SharpShopDirect.Controllers
 {
@@ -105,6 +108,99 @@ namespace SharpShopDirect.Controllers
 
             return View(car);
         }
+
+
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Details([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        db.Favorites.Add(favorite);
+        //        db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+
+        //    return View(favorite);
+        //}
+         
+         
+
+
+        //POST Details
+        [HttpPost]
+        [ActionName("Details")]
+        public ActionResult buttonClick(int? itemId)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                //Get current user's id
+                //var idid = User.Identity.GetUserId();
+
+                //Find current event and current user
+                //Favorite userFavorite = db.Favorites.Single(u => u.UserId == idid);
+
+
+                //SMTP Email set up
+                MailMessage msg = new MailMessage("sharpshopdirect@gmail.com", "marya@sharpshop.direct");
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+                client.EnableSsl = true;
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.UseDefaultCredentials = false;
+                client.Credentials = new NetworkCredential("sharpshopdirect@gmail.com", "Lover234");
+
+
+
+                //if (userFavorite.ItemId == itemId)
+                //{
+                //    //Remove favorite from user
+                //    @userFavorite.ItemId = 0;
+                //    @userFavorite.UserId = null;
+
+                //    //Change button to join event
+                //    ViewBag.Here = "FAVORITES";
+
+                //    //Save database changes
+                //    db.SaveChanges();
+
+                //    //Send confirmation email
+                    msg.Subject = @User.Identity.GetUserName() + " want to purchase";
+                    msg.Body = "Hello, " + @User.Identity.GetUserName() + "\n\n Whats to purchase\n\nThank You, \n SharpShop.Direct";
+                    client.Send(msg);
+                //}
+                //else
+                //{
+                    //Add user to favorite
+
+                //    @userFavorite.UserId = "4f132162-59ec-415d-9ca4-8cec8ba0e7ef";
+                //    @userFavorite.ItemId = itemId.GetValueOrDefault();
+
+                //    //Change button to leave event
+                //    ViewBag.Here = "Remove";
+
+                //    //Save database changes
+                //    db.SaveChanges();
+
+                //    //Send confirmation email
+                //    msg.Subject = @User.Identity.GetUserName() + " added to favorites";
+                //    msg.Body = "Hello, " + @User.Identity.GetUserName() + "\n\n " + @userFavorite.ItemId + "No longer in favorites\n\nThank You, \n SharpShop.Direct";
+                //    client.Send(msg);
+                //}
+
+
+                return View("Details", "Edit", new { itemId });
+            }
+            else
+                return View();
+        }
+
+
+
+
+
+
+
 
 
 

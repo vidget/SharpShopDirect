@@ -85,8 +85,12 @@ namespace SharpShopDirect.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "FavoriteId,UserId,ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Favorite favorite)
+        public ActionResult Create([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
         {
+
+            favorite.ItemId = 1;
+            favorite.UserId = User.Identity.GetUserId();
+
             if (ModelState.IsValid)
             {
                 db.Favorites.Add(favorite);
@@ -96,6 +100,9 @@ namespace SharpShopDirect.Controllers
 
             return View(favorite);
         }
+
+
+
 
         // GET: Favorites/Edit/5
         public ActionResult Edit(int? id)

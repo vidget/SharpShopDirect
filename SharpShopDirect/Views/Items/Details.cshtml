@@ -14,11 +14,25 @@
 
     <h2>@Html.DisplayFor(model => model.Description)</h2>
 
-    <center>  <img src="@Html.DisplayFor(model => model.Image)" width="592" height="1000" />   </center>
+    <center>  <img src="@Html.DisplayFor(model => model.Image)" height="650" />   </center>
 
 
 
 </div>
+
+
+@*<center>
+    @using (Html.BeginForm("Details", "Items", FormMethod.Post, new { id = Model.ItemId }))
+    {
+
+        <input type="submit" class="btn btn-block" name="Details" value="@ViewBag.Here" />
+
+    }
+</center>*@
+
+
+
+
 
 <p>
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.ItemId }) |*@

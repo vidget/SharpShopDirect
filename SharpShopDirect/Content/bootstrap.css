@@ -1089,7 +1089,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #ebebeb;
+  color: #000;
   background-color: #babfc4;
 }
 input,
@@ -6826,10 +6826,11 @@ button.close {
 table,
 .table {
   font-size: 15px;
+ color: #000;
 }
 table a:not(.btn),
 .table a:not(.btn) {
-  color: #fff;
+  color: #4e5d6c;
   text-decoration: underline;
 }
 table .dropdown-menu a,
@@ -6856,7 +6857,7 @@ table > tfoot > tr > td,
 }
 input,
 textarea {
-  color: #2b3e50;
+  color: #d2d2d2;
 }
 label,
 .radio label,
