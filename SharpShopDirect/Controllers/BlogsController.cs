@@ -22,7 +22,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET:My Blog for Admin
-        [Authorize(Users = "marya194@gmail.com")]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Manage() 
         {
             return View(db.Blogs.ToList()); 
