@@ -21,15 +21,39 @@ namespace SharpShopDirect.Controllers
 
         // GET: Favorites
          [AllowAnonymous]
-        public ActionResult Index()
+        public ActionResult Index(string userID,string searchString) 
         {
 
 
-            return View(db.Favorites.ToList());
+            var GenreLst = new List<string>();
+
+            var GenreQry = from d in db.Favorites
+                           orderby d.FavoriteId
+                           select d.UserId;
+
+            GenreLst.AddRange(GenreQry.Distinct());
+            ViewBag.itemType = new SelectList(GenreLst);
+
+            var car = from m in db.Favorites
+                      select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+
+                car = car.Where(s => s.UserId.Contains(searchString));
+            }
+
+            if (!String.IsNullOrEmpty(userID))
+            {
+
+                car = car.Where(x => x.UserId == userID);
+            }
+
+
+            return View(car);
+
         }
 
-
-        
         public ActionResult MyFavorite()
         {
              
@@ -56,9 +80,6 @@ namespace SharpShopDirect.Controllers
         }
 
 
-
-
-
         // GET: Favorites/Details/5
         public ActionResult Details(int? id)
         {
@@ -79,28 +100,6 @@ namespace SharpShopDirect.Controllers
         {
             return View();
         }
-
-        // POST: Favorites/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
-        {
-
-            favorite.ItemId = 1;
-            favorite.UserId = User.Identity.GetUserId();
-
-            if (ModelState.IsValid)
-            {
-                db.Favorites.Add(favorite);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            return View(favorite);
-        }
-
 
 
 
@@ -158,7 +157,8 @@ namespace SharpShopDirect.Controllers
             Favorite favorite = db.Favorites.Find(id);
             db.Favorites.Remove(favorite);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("MyFavorite", "Favorites");
+
         }
 
         protected override void Dispose(bool disposing)

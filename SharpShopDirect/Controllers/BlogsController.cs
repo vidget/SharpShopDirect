@@ -47,7 +47,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Blogs/Create
-        [Authorize(Users = "marya194@gmail.com")]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Create()
         {
             return View();
@@ -59,7 +59,7 @@ namespace SharpShopDirect.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        [Authorize (Users ="marya194@gmail.com")]
+        [Authorize (Users ="marya194@hotmail.com")]
         public ActionResult Create([Bind(Include = "Blogid,MyComment,Date")] Blog blog)
         {
             if (ModelState.IsValid)
@@ -73,7 +73,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Blogs/Edit/5
-        [Authorize(Users = "marya194@gmail.com")]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -93,7 +93,7 @@ namespace SharpShopDirect.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Users = "marya194@gmail.com")]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Edit([Bind(Include = "Blogid,MyComment,Date")] Blog blog)
         {
             if (ModelState.IsValid)
@@ -106,7 +106,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Blogs/Delete/5
-        [Authorize(Users = "marya194@gmail.com")]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Delete(int? id)
         {
             if (id == null)

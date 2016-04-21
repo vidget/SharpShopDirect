@@ -12,7 +12,6 @@ using Microsoft.AspNet.Identity;
 using System.Net.Mail;
 
 
-
 namespace SharpShopDirect.Controllers
 {
     public class ItemsController : Controller
@@ -28,52 +27,49 @@ namespace SharpShopDirect.Controllers
 
         public ActionResult MyItems() 
         {
-            
-
-            //creates a list of favorite
-           // var ItemLst = new List<Item>();
-           // var FavList = new List<int>();
-
             //get's the string ID of the current Logged in User
             string currentUser = User.Identity.GetUserId();
 
             //returns the favorites where the UserID matches the logged in user
             var GenreQry = from d in db.Favorites
-
                            where d.UserId == currentUser
-
                            select d;
-
-            ////adds the object to the List
-            //FavList.AddRange(GenreQry);
-
-
-            //foreach(int itemId in FavList)
-            //{
-            //                   var ItemList = from e in db.Items
-            //                                    where e.ItemId == itemId
-            //                                    select e;
-            //                   ItemLst.AddRange(ItemList); 
-
-            //}
-
-            ////ItemList.AddRange(ItemList);
-
-
             return View(GenreQry.ToList());
-
-
-
-
-
-
-
-
-
-
-            
         }
 
+
+        [HttpPost]
+        [ActionName("About")]
+        public ActionResult buttonClick2(int itemId, string itemType, string collection, string itemName, string description, int itemNumber, decimal price, string color, string itemURL)
+        { 
+            Favorite favorite = new Favorite();
+
+            if (User.Identity.IsAuthenticated)
+            {
+                favorite.ItemId = itemId;
+                favorite.ItemType = itemType;
+                favorite.Collection = collection;
+                favorite.ItemName = itemName;
+                favorite.ItemNumber = itemNumber;
+                favorite.Price = price;
+                favorite.Description = description;
+                favorite.Color = color;
+                favorite.Image = itemURL;
+                favorite.UserId = User.Identity.GetUserId();
+
+                if (ModelState.IsValid)
+                {
+                    db.Favorites.Add(favorite);
+                    db.SaveChanges();
+                    //Redirects back to Users Favorites after added
+                    return RedirectToAction("MyFavorite", "Favorites");
+                }
+
+                return View("Details", "Edit", new { itemId });
+            }
+            else
+                return View();
+        }
 
         public ActionResult About(string itemType, string searchString)
         {
@@ -88,124 +84,52 @@ namespace SharpShopDirect.Controllers
 
             var car = from m in db.Items
                       select m;
-
-
-
+            
             if (!String.IsNullOrEmpty(searchString))
             {
-
                 car = car.Where(s => s.ItemType.Contains(searchString));
             }
 
-
-
             if (!String.IsNullOrEmpty(itemType))
             {
-
                 car = car.Where(x => x.ItemType == itemType);
             }
-
-
             return View(car);
         }
 
-
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Details([Bind(Include = "FavoriteId,UserId,ItemId")] Favorite favorite)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.Favorites.Add(favorite);
-        //        db.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-
-        //    return View(favorite);
-        //}
-         
-         
-
-
+        
         //POST Details
         [HttpPost]
         [ActionName("Details")]
-        public ActionResult buttonClick(int? itemId)
+        public ActionResult buttonClick(int itemId, string itemType, string collection, string itemName,string description,int itemNumber,decimal price,string color, string itemURL )
         {
+            Favorite favorite = new Favorite();
+
             if (User.Identity.IsAuthenticated)
             {
-                //Get current user's id
-                //var idid = User.Identity.GetUserId();
+                favorite.ItemId = itemId;
+                favorite.ItemType = itemType;
+                favorite.Collection = collection;
+                favorite.ItemName = itemName;
+                favorite.ItemNumber = itemNumber;
+                favorite.Price = price;
+                favorite.Description = description;
+                favorite.Color = color;
+                favorite.Image = itemURL;
+                favorite.UserId = User.Identity.GetUserId();
 
-                //Find current event and current user
-                //Favorite userFavorite = db.Favorites.Single(u => u.UserId == idid);
-
-
-                //SMTP Email set up
-                MailMessage msg = new MailMessage("sharpshopdirect@gmail.com", "marya@sharpshop.direct");
-                SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
-                client.EnableSsl = true;
-                client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                client.UseDefaultCredentials = false;
-                client.Credentials = new NetworkCredential("sharpshopdirect@gmail.com", "Lover234");
-
-
-
-                //if (userFavorite.ItemId == itemId)
-                //{
-                //    //Remove favorite from user
-                //    @userFavorite.ItemId = 0;
-                //    @userFavorite.UserId = null;
-
-                //    //Change button to join event
-                //    ViewBag.Here = "FAVORITES";
-
-                //    //Save database changes
-                //    db.SaveChanges();
-
-                //    //Send confirmation email
-                    msg.Subject = @User.Identity.GetUserName() + " want to purchase";
-                    msg.Body = "Hello, " + @User.Identity.GetUserName() + "\n\n Whats to purchase\n\nThank You, \n SharpShop.Direct";
-                    client.Send(msg);
-                //}
-                //else
-                //{
-                    //Add user to favorite
-
-                //    @userFavorite.UserId = "4f132162-59ec-415d-9ca4-8cec8ba0e7ef";
-                //    @userFavorite.ItemId = itemId.GetValueOrDefault();
-
-                //    //Change button to leave event
-                //    ViewBag.Here = "Remove";
-
-                //    //Save database changes
-                //    db.SaveChanges();
-
-                //    //Send confirmation email
-                //    msg.Subject = @User.Identity.GetUserName() + " added to favorites";
-                //    msg.Body = "Hello, " + @User.Identity.GetUserName() + "\n\n " + @userFavorite.ItemId + "No longer in favorites\n\nThank You, \n SharpShop.Direct";
-                //    client.Send(msg);
-                //}
-
+                if (ModelState.IsValid)
+                {
+                    db.Favorites.Add(favorite);
+                    db.SaveChanges();
+                    return RedirectToAction("MyFavorite","Favorites");
+                }
 
                 return View("Details", "Edit", new { itemId });
             }
             else
                 return View();
         }
-
-
-
-
-
-
-
-
-
-
-
-
 
         // GET: Items/Details/5
         public ActionResult Details(int? id)
@@ -235,6 +159,7 @@ namespace SharpShopDirect.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Item item)
         {
+           
             if (ModelState.IsValid)
             {
                 db.Items.Add(item);

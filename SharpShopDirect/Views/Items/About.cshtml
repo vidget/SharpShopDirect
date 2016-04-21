@@ -75,7 +75,24 @@
                 @Html.DisplayFor(modelItem => item.Color)
             </td>
             <td>
-                <button type="button" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your favorites')">Click Me!</button>
+
+                @*<button type="button" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your favorites')">Click Me!</button>*@
+
+                <center>
+                    @using (Html.BeginForm("About", "Items", FormMethod.Post, new { id = item.ItemId }))
+                    {
+                        <input type="submit" class="btn btn-block" name="About" value="ADD" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your Favorites')" />
+                        <input type="hidden" name="itemId" value="@item.ItemId" />
+                        <input type="hidden" name="itemType" value="@Html.DisplayFor(modelItem => item.ItemType)" />
+                        <input type="hidden" name="collection" value="@Html.DisplayFor(modelItem => item.Collection)" />
+                        <input type="hidden" name="itemName" value="@Html.DisplayFor(modelItem => item.ItemName)" />
+                        <input type="hidden" name="itemNumber" value="@Html.DisplayFor(modelItem => item.ItemNumber)" />
+                        <input type="hidden" name="description" value="@item.Description" />
+                        <input type="hidden" name="price" value="@item.Price" />
+                        <input type="hidden" name="color" value="@item.Color" />
+                        <input type="hidden" name="itemURL" value="@item.Image" />
+                    }
+                </center>
             </td>
 
             <td>

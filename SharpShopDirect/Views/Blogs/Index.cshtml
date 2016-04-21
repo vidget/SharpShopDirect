@@ -13,7 +13,7 @@
            
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Date)
+           
         </th>
         <th></th>
     </tr>
@@ -21,10 +21,10 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.MyComment)
+            <h3>@Html.DisplayFor(modelItem => item.MyComment)</h3>
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Date)
+           <p>@Html.DisplayFor(modelItem => item.Date)</p>
         </td>
         <td>
             @*@Html.ActionLink("Edit", "Edit", new { id=item.Blogid }) |
@@ -32,6 +32,10 @@
             @Html.ActionLink("Delete", "Delete", new { id=item.Blogid })*@
         </td>
     </tr>
+
+    
+
+   
 }
 
 </table>

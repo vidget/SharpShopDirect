@@ -4,13 +4,28 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>All Customer Favorites</h2>
 
-<p>
+@*<p>
     @Html.ActionLink("Create New", "Create")
-</p>
+</p>*@
+
+<p>Enter search criteria:</p>
+@using (Html.BeginForm("Index", "Favorites", FormMethod.Get))
+{
+    <p>
+        Type: @Html.DropDownList("ItemType", "All")
+        <input type="submit" value="Lookup" />
+    </p>
+
+}
+
+
 <table class="table">
     <tr>
+        <th>
+
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.UserId)
         </th>
@@ -46,6 +61,11 @@
 
 @foreach (var item in Model) {
     <tr>
+
+        <td>
+            <img src="@Html.DisplayFor(modelItem => item.Image)" width="118" height="200" />
+        </td>
+
         <td>
             @Html.DisplayFor(modelItem => item.UserId)
         </td>

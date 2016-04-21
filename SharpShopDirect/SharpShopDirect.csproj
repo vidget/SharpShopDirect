@@ -548,6 +548,7 @@
     <Content Include="Views\Favorites\Details.cshtml" />
     <Content Include="Views\Favorites\Edit.cshtml" />
     <Content Include="Views\Favorites\Index.cshtml" />
+    <Content Include="Views\TempViews\MyFavorite.cshtml" />
     <Content Include="Views\Favorites\MyFavorite.cshtml" />
   </ItemGroup>
   <ItemGroup>
