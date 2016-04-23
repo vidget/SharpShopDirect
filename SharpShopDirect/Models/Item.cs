@@ -16,7 +16,5 @@ namespace SharpShopDirect.Models
         public virtual string Description { get; set; }
         public virtual string Color { get; set; }
         public virtual string Image { get; set; }
-
-
     }
 }

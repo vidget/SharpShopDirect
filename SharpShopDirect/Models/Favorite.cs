@@ -7,7 +7,6 @@ namespace SharpShopDirect.Models
 {
     public class Favorite
     {
-
         public virtual int FavoriteId { get; set; }  
         public virtual string UserId { get; set; }
         public virtual int ItemId { get; set; }
@@ -19,9 +18,6 @@ namespace SharpShopDirect.Models
         public virtual string Description { get; set; }
         public virtual string Color { get; set; }
         public virtual string Image { get; set; }
-
-        
-          
     }
 
 

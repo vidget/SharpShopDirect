@@ -10,8 +10,8 @@
 @using (Html.BeginForm("About", "Items", FormMethod.Get))
 {
     <p>
-        Type: @Html.DropDownList("ItemType", "All")
-        <input type="submit" value="Lookup" />
+        Sort by Type: @Html.DropDownList("ItemType", "All")
+        <input type="submit"  value="Lookup" />
     </p>
 
 }
@@ -40,9 +40,16 @@
         <th>
             @Html.DisplayNameFor(model => model.Color)
         </th>
-        <th>
-            Add to Favorites
-        </th>
+
+
+@if (Context.User.Identity.IsAuthenticated)
+{
+
+    <th>
+        Add to Favorites
+    </th>
+
+}       
 
         <th></th>
     </tr>
@@ -74,13 +81,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Color)
             </td>
-            <td>
+           
 
-                @*<button type="button" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your favorites')">Click Me!</button>*@
+    @if(Context.User.Identity.IsAuthenticated) 
+    {
+            <td>
 
                 <center>
                     @using (Html.BeginForm("About", "Items", FormMethod.Post, new { id = item.ItemId }))
                     {
+
+
+
                         <input type="submit" class="btn btn-block" name="About" value="ADD" onclick="alert(' @Html.DisplayFor(modelItem => item.ItemName) added to your Favorites')" />
                         <input type="hidden" name="itemId" value="@item.ItemId" />
                         <input type="hidden" name="itemType" value="@Html.DisplayFor(modelItem => item.ItemType)" />
@@ -91,16 +103,17 @@
                         <input type="hidden" name="price" value="@item.Price" />
                         <input type="hidden" name="color" value="@item.Color" />
                         <input type="hidden" name="itemURL" value="@item.Image" />
+                        @*<input type="hidden" name="date" value="@DateTime.Now" />*@
                     }
                 </center>
             </td>
-
+    }
             <td>
-                @*@Html.ActionLink("Edit", "Edit", new { id = item.ItemId }) |
+            @*@Html.ActionLink("Edit", "Edit", new { id = item.ItemId }) |
                 @Html.ActionLink("Details", "Details", new { id = item.ItemId }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.ItemId })*@
             </td>
-        </tr>
+</tr>
     }
 
 </table>

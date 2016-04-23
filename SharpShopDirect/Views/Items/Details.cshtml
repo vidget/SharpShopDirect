@@ -18,23 +18,39 @@
 
 </div>
 
-<center>
-    @using (Html.BeginForm("Details", "Items", FormMethod.Post, new { id = Model.ItemId }))
-    {
 
-        <input type="submit" class="btn btn-block" name="Details" value="Add to Favorite" />
-        <input type="hidden" name="itemId" value="@Model.ItemId" />
-        <input type="hidden" name="itemType" value="@Model.ItemType" />
-        <input type="hidden" name="collection" value="@Model.Collection"/>
-        <input type="hidden" name="itemName" value="@Model.ItemName" />
-        <input type="hidden" name="itemNumber" value="@Model.ItemNumber" />
-        <input type="hidden" name="description" value="@Model.Description" />
-        <input type="hidden" name="price" value="@Model.Price"/>
-        <input type="hidden" name="color" value="@Model.Color" />
-        <input type="hidden" name="itemURL" value="@Model.Image" />
-    }
-</center>
 
+
+
+
+
+
+
+
+
+@if (Context.User.Identity.IsAuthenticated)
+{
+    @*Add to Favorites Button and information added to the database*@
+    <center>
+        @using (Html.BeginForm("Details", "Items", FormMethod.Post, new { id = Model.ItemId }))
+        {
+
+            <input type="submit" class="btn btn-block" name="Details" value="Add to Favorite" />
+            <input type="hidden" name="userEmail" value="@User.Identity.Name">
+            <input type="hidden" name="itemId" value="@Model.ItemId" />
+            <input type="hidden" name="itemType" value="@Model.ItemType" />
+            <input type="hidden" name="collection" value="@Model.Collection" />
+            <input type="hidden" name="itemName" value="@Model.ItemName" />
+            <input type="hidden" name="itemNumber" value="@Model.ItemNumber" />
+            <input type="hidden" name="description" value="@Model.Description" />
+            <input type="hidden" name="price" value="@Model.Price" />
+            <input type="hidden" name="color" value="@Model.Color" />
+            <input type="hidden" name="itemURL" value="@Model.Image" />
+            
+             @*<input type="hidden" name="date" value="@DateTime.Now" />*@
+        }
+    </center>
+}
 
 <p>
     @*@Html.ActionLink("Edit", "Edit", new { id = Model.ItemId }) |*@

@@ -18,6 +18,9 @@
         <th></th>
     </tr>
 
+
+
+
 @foreach (var item in Model) {
     <tr>
         <td>
@@ -27,9 +30,17 @@
            <p>@Html.DisplayFor(modelItem => item.Date)</p>
         </td>
         <td>
-            @*@Html.ActionLink("Edit", "Edit", new { id=item.Blogid }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Blogid }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Blogid })*@
+
+@if (User.IsInRole("Admin"))
+{
+    @Html.ActionLink("Edit |", "Edit", new { id = item.Blogid })
+    @Html.ActionLink(" Delete |", "Delete", new { id = item.Blogid })
+    @Html.ActionLink(" Manage |", "Manage", new { id = item.Blogid })
+}
+
+
+
+          
         </td>
     </tr>
 

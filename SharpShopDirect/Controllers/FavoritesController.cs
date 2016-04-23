@@ -17,43 +17,43 @@ namespace SharpShopDirect.Controllers
         private FashionContext db = new FashionContext();
 
         
-
+        [Authorize]
 
         // GET: Favorites
-         [AllowAnonymous]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Index(string userID,string searchString) 
         {
-
-
             var GenreLst = new List<string>();
 
+            //Searchs through the list of favorites to find all the userId's
             var GenreQry = from d in db.Favorites
                            orderby d.FavoriteId
                            select d.UserId;
 
+            //Add only unique users to the 
             GenreLst.AddRange(GenreQry.Distinct());
-            ViewBag.itemType = new SelectList(GenreLst);
+            ViewBag.UserId = new SelectList(GenreLst);
 
-            var car = from m in db.Favorites
+            var favoriteList = from m in db.Favorites
                       select m;
 
-            if (!String.IsNullOrEmpty(searchString))
-            {
+            //USED with a SEARCH BOX
+            //if (!String.IsNullOrEmpty(searchString))
+            //{
 
-                car = car.Where(s => s.UserId.Contains(searchString));
-            }
+            //    car = car.Where(s => s.UserId.Contains(searchString));
+            //}
 
             if (!String.IsNullOrEmpty(userID))
             {
 
-                car = car.Where(x => x.UserId == userID);
+                favoriteList = favoriteList.Where(x => x.UserId == userID);
             }
-
-
-            return View(car);
+             
+            return View(favoriteList);
 
         }
-
+        [Authorize]
         public ActionResult MyFavorite()
         {
              
@@ -61,7 +61,7 @@ namespace SharpShopDirect.Controllers
             var GenreLst = new List<Favorite>();
 
             //get's the string ID of the current Logged in User
-            string currentUser = User.Identity.GetUserId();
+            string currentUser = User.Identity.Name;
 
             //returns the favorites where the UserID matches the logged in user
             var GenreQry = from d in db.Favorites
@@ -73,14 +73,12 @@ namespace SharpShopDirect.Controllers
             GenreLst.AddRange(GenreQry);
 
 
-            //ItemList.AddRange(ItemList);
-
-
             return View(GenreQry.ToList());
         }
 
 
         // GET: Favorites/Details/5
+       [Authorize]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -95,15 +93,14 @@ namespace SharpShopDirect.Controllers
             return View(favorite);
         }
 
-        // GET: Favorites/Create
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Create()
         {
             return View();
         }
 
-
-
         // GET: Favorites/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -122,6 +119,7 @@ namespace SharpShopDirect.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "FavoriteId,UserId,ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Favorite favorite)
         {
@@ -135,6 +133,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Favorites/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -152,6 +151,7 @@ namespace SharpShopDirect.Controllers
         // POST: Favorites/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
             Favorite favorite = db.Favorites.Find(id);

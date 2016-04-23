@@ -37,7 +37,6 @@ namespace SharpShopDirect.Controllers
             return View(GenreQry.ToList());
         }
 
-
         [HttpPost]
         [ActionName("About")]
         public ActionResult buttonClick2(int itemId, string itemType, string collection, string itemName, string description, int itemNumber, decimal price, string color, string itemURL)
@@ -55,12 +54,31 @@ namespace SharpShopDirect.Controllers
                 favorite.Description = description;
                 favorite.Color = color;
                 favorite.Image = itemURL;
-                favorite.UserId = User.Identity.GetUserId();
-
+                favorite.UserId = User.Identity.Name;
+                                                
                 if (ModelState.IsValid)
                 {
+                    var fromAddress = new MailAddress("sharpshopdirect@gmail.com", "From Favorites");
+                    var toAddress = new MailAddress("vidget@yahoo.com", "Greg");
+                    
+                    //SMTP Email set up
+                    MailMessage msg = new MailMessage("sharpshopdirect@gmail.com", "greg@wundertwin.com");
+                    SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+                    client.EnableSsl = true;
+                    client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    client.UseDefaultCredentials = false;
+                    client.Credentials = new NetworkCredential("sharpshopdirect@gmail.com", "password");
+
                     db.Favorites.Add(favorite);
                     db.SaveChanges();
+
+                    //Send confirmation email
+                    msg.Subject = "SharpShop.Direct Greg has added a new favorite";
+                    msg.Body = "Hello, Marya \n\n" + favorite.UserId + "\n\n has added " + favorite.ItemName + " to their favorites \n\nThank You, \n SharpShop.direct";
+                    //COMMENTED OUT until working
+                    //client.Send(msg);
+
+
                     //Redirects back to Users Favorites after added
                     return RedirectToAction("MyFavorite", "Favorites");
                 }
@@ -82,26 +100,26 @@ namespace SharpShopDirect.Controllers
             GenreLst.AddRange(GenreQry.Distinct());
             ViewBag.itemType = new SelectList(GenreLst);
 
-            var car = from m in db.Items
+            var itemList = from m in db.Items
                       select m;
             
             if (!String.IsNullOrEmpty(searchString))
             {
-                car = car.Where(s => s.ItemType.Contains(searchString));
+                itemList = itemList.Where(s => s.ItemType.Contains(searchString));
             }
 
             if (!String.IsNullOrEmpty(itemType))
             {
-                car = car.Where(x => x.ItemType == itemType);
+                itemList = itemList.Where(x => x.ItemType == itemType);
             }
-            return View(car);
+            return View(itemList);
         }
 
         
         //POST Details
         [HttpPost]
         [ActionName("Details")]
-        public ActionResult buttonClick(int itemId, string itemType, string collection, string itemName,string description,int itemNumber,decimal price,string color, string itemURL )
+        public ActionResult buttonClick(int itemId, string itemType, string collection, string itemName,string description,int itemNumber,decimal price,string color, string itemURL)
         {
             Favorite favorite = new Favorite();
 
@@ -116,7 +134,9 @@ namespace SharpShopDirect.Controllers
                 favorite.Description = description;
                 favorite.Color = color;
                 favorite.Image = itemURL;
-                favorite.UserId = User.Identity.GetUserId();
+                favorite.UserId = User.Identity.Name;
+                //favorite.UserEmail = User.Identity.Name;
+                //favorite.DateTime = date;
 
                 if (ModelState.IsValid)
                 {
@@ -129,7 +149,7 @@ namespace SharpShopDirect.Controllers
             }
             else
                 return View();
-        }
+        } 
 
         // GET: Items/Details/5
         public ActionResult Details(int? id)
@@ -156,6 +176,7 @@ namespace SharpShopDirect.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Users = "marya194@hotmail.com")]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Item item)
         {
@@ -171,6 +192,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Items/Edit/5
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -190,6 +212,7 @@ namespace SharpShopDirect.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Edit([Bind(Include = "ItemId,ItemType,Collection,ItemName,ItemNumber,Price,Description,Color,Image")] Item item)
         {
             if (ModelState.IsValid)
@@ -202,6 +225,7 @@ namespace SharpShopDirect.Controllers
         }
 
         // GET: Items/Delete/5
+        [Authorize(Users = "marya194@hotmail.com")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -218,6 +242,7 @@ namespace SharpShopDirect.Controllers
 
         // POST: Items/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Users = "marya194@hotmail.com")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

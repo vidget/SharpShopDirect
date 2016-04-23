@@ -14,30 +14,19 @@
 @using (Html.BeginForm("Index", "Favorites", FormMethod.Get))
 {
     <p>
-        Type: @Html.DropDownList("ItemType", "All")
+        Type: @Html.DropDownList("UserId", "All")
         <input type="submit" value="Lookup" />
     </p>
-
 }
-
 
 <table class="table">
     <tr>
         <th>
-
         </th>
         <th>
             @Html.DisplayNameFor(model => model.UserId)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ItemId)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ItemType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Collection)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.ItemName)
         </th>
@@ -47,15 +36,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Price)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Color)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Image)
-        </th>
+       
         <th></th>
     </tr>
 
@@ -69,15 +50,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.UserId)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ItemId)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ItemType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Collection)
-        </td>
+       
         <td>
             @Html.DisplayFor(modelItem => item.ItemName)
         </td>
@@ -87,15 +60,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.Price)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Color)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Image)
-        </td>
+        
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.FavoriteId }) |
             @Html.ActionLink("Details", "Details", new { id=item.FavoriteId }) |
