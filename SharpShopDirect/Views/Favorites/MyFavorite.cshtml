@@ -9,9 +9,11 @@
 <p>
     @Html.ActionLink("Back to Collection", "About", "Items") 
 
+@*Displays the link only when the Admin is logged in*@
+
 @if (User.IsInRole("Admin"))
 {
-
+   
    @Html.ActionLink("My Customer's Favorites", "Index", "Favorites");
     
 }

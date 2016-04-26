@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
+using Postal;
 
 namespace SharpShopDirect.Controllers
 {
@@ -29,6 +30,7 @@ namespace SharpShopDirect.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Contact";
+
             return View();
         }
 

@@ -9,7 +9,8 @@ using System.Web.Mvc;
 using SharpShopDirect.Context;
 using SharpShopDirect.Models;
 using Microsoft.AspNet.Identity;
-using System.Net.Mail;
+//using System.Net.Mail;
+using Postal;
 
 
 namespace SharpShopDirect.Controllers
@@ -18,7 +19,7 @@ namespace SharpShopDirect.Controllers
     {
         private FashionContext db = new FashionContext();
         private FashionContext db2 = new FashionContext();
-
+       
         // GET: Items
         public ActionResult Index()
         {
@@ -58,25 +59,35 @@ namespace SharpShopDirect.Controllers
                                                 
                 if (ModelState.IsValid)
                 {
-                    var fromAddress = new MailAddress("sharpshopdirect@gmail.com", "From Favorites");
-                    var toAddress = new MailAddress("vidget@yahoo.com", "Greg");
+                    //var fromAddress = new MailAddress("sharpshopdirect@gmail.com", "From Favorites");
+                    //var toAddress = new MailAddress("vidget@yahoo.com", "Greg");
                     
-                    //SMTP Email set up
-                    MailMessage msg = new MailMessage("sharpshopdirect@gmail.com", "greg@wundertwin.com");
-                    SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
-                    client.EnableSsl = true;
-                    client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    client.UseDefaultCredentials = false;
-                    client.Credentials = new NetworkCredential("sharpshopdirect@gmail.com", "password");
+                    ////SMTP Email set up
+                    //MailMessage msg = new MailMessage("sharpshopdirect@gmail.com", "greg@wundertwin.com");
+                    //SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+                    //client.EnableSsl = true;
+                    //client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    //client.UseDefaultCredentials = false;
+                    //client.Credentials = new NetworkCredential("sharpshopdirect@gmail.com", "password");
 
-                    db.Favorites.Add(favorite);
-                    db.SaveChanges();
+                    //db.Favorites.Add(favorite);
+                    //db.SaveChanges();
 
-                    //Send confirmation email
-                    msg.Subject = "SharpShop.Direct Greg has added a new favorite";
-                    msg.Body = "Hello, Marya \n\n" + favorite.UserId + "\n\n has added " + favorite.ItemName + " to their favorites \n\nThank You, \n SharpShop.direct";
-                    //COMMENTED OUT until working
+                    ////Send confirmation email
+                    //msg.Subject = "SharpShop.Direct Greg has added a new favorite";
+                    //msg.Body = "Hello, Marya \n\n" + favorite.UserId + "\n\n has added " + favorite.ItemName + " to their favorites \n\nThank You, \n SharpShop.direct";
+                    ////COMMENTED OUT until working
                     //client.Send(msg);
+                    dynamic email = new Email("Example");
+                    email.To= "vidget@yahoo.com";
+                    email.Subject = "Hello World, this is a test";
+                    email.Message = "This is the message from the Test text";
+                    email.Date = DateTime.UtcNow;
+
+                    
+                    
+         
+                    email.Send(email);
 
 
                     //Redirects back to Users Favorites after added
